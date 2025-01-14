@@ -1,0 +1,1252 @@
+{
+  "vaultName": "Thalbrine",
+  "lastExport": 1736864601571,
+  "pluginVersion": "1.8.01",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
+  "useCustomHeadContent": false,
+  "useCustomFavicon": false,
+  "files": [
+    "00_attachments/misc/ImagePlaceholder.png.md",
+    "00_attachments/AArid Province Map@0.25x.png",
+    "00_attachments/Badtea-effects.jpeg",
+    "00_attachments/BlackScaryWolfThatGlows.jpeg",
+    "00_attachments/Brogho 2023-09-21 14.21.18.excalidraw.md",
+    "00_attachments/Divided Wilds 0.25.png",
+    "00_attachments/Dragonscale Whetstone_1.jpeg",
+    "00_attachments/Dragonscale Whetstone_2.jpeg",
+    "00_attachments/Dragonscale Whetstone_3.jpeg",
+    "00_attachments/Enchantment Breaker.jpeg",
+    "00_attachments/Gauntlets of Eldritch Ferocity_1.jpeg",
+    "00_attachments/Gauntlets of Eldritch Ferocity_2.jpeg",
+    "00_attachments/Helm's Bearing 0.25.png",
+    "00_attachments/Illusionist's Bracers.png",
+    "00_attachments/image.jpg",
+    "00_attachments/Pasted image 20241116234822.png",
+    "00_attachments/Pseudogriffon_familiar_1.jpeg",
+    "00_attachments/Pseudogriffon_familiar_2.jpeg",
+    "00_attachments/Pseudogriffon_familiar_2_cropped.jpeg",
+    "00_attachments/Rakitten Monster Info.png",
+    "00_attachments/Shrivells Reach 25.png",
+    "00_attachments/Splicer Augments Table.png",
+    "00_attachments/Sunsnacker Monster Info.png",
+    "01_PCs/Not my PCs/Corydon.md",
+    "01_PCs/Not my PCs/Hilmia.md",
+    "01_PCs/Not my PCs/Soroko Roko.md",
+    "01_PCs/Not my PCs/Tony Waru.md",
+    "01_PCs/Singwin Mistwalker-folder/Race Info/Feathren.md",
+    "01_PCs/Singwin Mistwalker-folder/Race Info/Feathren - Traits.md",
+    "01_PCs/Singwin Mistwalker-folder/Character Sheet.md",
+    "01_PCs/Singwin Mistwalker-folder/Crafting.md",
+    "01_PCs/Singwin Mistwalker-folder/Feats.md",
+    "01_PCs/Singwin Mistwalker-folder/Interesting things.md",
+    "01_PCs/Singwin Mistwalker-folder/Items.canvas",
+    "01_PCs/Singwin Mistwalker-folder/New information.md",
+    "01_PCs/Singwin Mistwalker-folder/Singwin Mistforger.md",
+    "01_PCs/Singwin Mistwalker-folder/Spells.md",
+    "01_PCs/Singwin Mistwalker-folder/The Astral Griffon.md",
+    "01_PCs/Singwin Mistwalker-folder/Warlock.md",
+    "01_PCs/Tamer-Folder/Cappy.md",
+    "01_PCs/Tamer-Folder/Companions.md",
+    "01_PCs/Tamer-Folder/Spells.md",
+    "01_PCs/Tamer-Folder/Splicer - Training Paradigm.md",
+    "01_PCs/Tamer-Folder/Tamer Class Features.md",
+    "02_Journal/Other campaigns/The Redscales/Session 01 - 2024-11-17 - Blue vs Red Kobolds.md",
+    "02_Journal/Other campaigns/The Redscales/Session 02 - 2024-11-24 - Blue vs Red Kobolds.md",
+    "02_Journal/Other campaigns/The Redscales/Session 03 - 2024-11-29 - Blue vs Red Kobolds.md",
+    "02_Journal/Other campaigns/The Redscales/Session 04 - 2025-01-11 - Blue vs Red Kobolds.md",
+    "02_Journal/Thalbrine - Big campaign/Session 00 - 2022-08-13.md",
+    "02_Journal/Thalbrine - Big campaign/Session 01 - 2022-08-16.md",
+    "02_Journal/Thalbrine - Big campaign/Session 02 - 2022-08-23.md",
+    "02_Journal/Thalbrine - Big campaign/Session 03 - 2022-09-04.md",
+    "02_Journal/Thalbrine - Big campaign/Session 04 - 2022-09-25.md",
+    "02_Journal/Thalbrine - Big campaign/Session 05 - 2022-10-09.md",
+    "02_Journal/Thalbrine - Big campaign/Session 06 - 2022-11-16.md",
+    "02_Journal/Thalbrine - Big campaign/Session 07 - 2022-11-26 - Ärkedruiden-Darby.md",
+    "02_Journal/Thalbrine - Big campaign/Session 08 - 2022-12-19 - Brogho (knarklangning).md",
+    "02_Journal/Thalbrine - Big campaign/Session 09 - 2023-01-06.md",
+    "02_Journal/Thalbrine - Big campaign/Session 10 - 2023-01-14.md",
+    "02_Journal/Thalbrine - Big campaign/Session 11 - 2023-01-29.md",
+    "02_Journal/Thalbrine - Big campaign/Session 12 - 2023-02-18.md",
+    "02_Journal/Thalbrine - Big campaign/Session 13 - 2023-03-04.md",
+    "02_Journal/Thalbrine - Big campaign/Session 14 - 2023-03-10.md",
+    "02_Journal/Thalbrine - Big campaign/Session 15 - 2023-03-25.md",
+    "02_Journal/Thalbrine - Big campaign/Session 16 - 2023-04-02.md",
+    "02_Journal/Thalbrine - Big campaign/Session 17 - 2023-04-15 - Olof-DM.md",
+    "02_Journal/Thalbrine - Big campaign/Session 18 - 2023-04-23 - Olof-DM.md",
+    "02_Journal/Thalbrine - Big campaign/Session 19 - 2023-05-05 - Olof-DM.md",
+    "02_Journal/Thalbrine - Big campaign/Session 20 - 2023-05-15.md",
+    "02_Journal/Thalbrine - Big campaign/Session 21 - 2023-05-23.md",
+    "02_Journal/Thalbrine - Big campaign/Session 22 - 2023-05-28 - Maskerad.md",
+    "02_Journal/Thalbrine - Big campaign/Session 23 - 2023-06-10.md",
+    "02_Journal/Thalbrine - Big campaign/Session 24 - 2023-06-17 - LAN-session med Johan.md",
+    "02_Journal/Thalbrine - Big campaign/Session 25 - 2023-06-20 - Lizardpeople in the Desert.md",
+    "02_Journal/Thalbrine - Big campaign/Session 26 - 2023-07-17 - Johan inte med, Gol spelas av Jacob.md",
+    "02_Journal/Thalbrine - Big campaign/Session 27 - 2023-07-24.md",
+    "02_Journal/Thalbrine - Big campaign/Session 28 - 2023-07-28.md",
+    "02_Journal/Thalbrine - Big campaign/Session 29 - 2023-08-13.md",
+    "02_Journal/Thalbrine - Big campaign/Session 30 - 2023-08-26 - Vi träffar Valetta i templet.md",
+    "02_Journal/Thalbrine - Big campaign/Session 31 - 2023-09-18.md",
+    "02_Journal/Thalbrine - Big campaign/Session 32 - 2023-10-01.md",
+    "02_Journal/Thalbrine - Big campaign/Session 33 - 2023-10-07.md",
+    "02_Journal/Thalbrine - Big campaign/Session 34 - 2023-10-15.md",
+    "02_Journal/Thalbrine - Big campaign/Session 35 - 2023-10-23.md",
+    "02_Journal/Thalbrine - Big campaign/Session 36 - 2023-11-03.md",
+    "02_Journal/Thalbrine - Big campaign/Session 37 - 2023-11-26.md",
+    "02_Journal/Thalbrine - Big campaign/Session 38 - 2023-12-03.md",
+    "02_Journal/Thalbrine - Big campaign/Session 39 - 2023-12-18.md",
+    "02_Journal/Thalbrine - Big campaign/Session 40 - 2023-12-26.md",
+    "02_Journal/Thalbrine - Big campaign/Session 41 - 2024-01-05.md",
+    "02_Journal/Thalbrine - Big campaign/Session 42 - 2024-01-12.md",
+    "02_Journal/Thalbrine - Big campaign/Session 43 - 2024-01-28.md",
+    "02_Journal/Thalbrine - Big campaign/Session 44 - 2024-02-04.md",
+    "02_Journal/Thalbrine - Big campaign/Session 45 - 2024-02-10.md",
+    "02_Journal/Thalbrine - Big campaign/Session 46 - 2024-03-02.md",
+    "02_Journal/Thalbrine - Big campaign/Session 47 - 2024-03-23.md",
+    "02_Journal/Thalbrine - Big campaign/Session 48 - 2024-08-23 - Starting the Orc-infiltration arc.md",
+    "02_Journal/The Adventures of a Party of Peculiar Personalities/Session 01 - 2024-04-06.md",
+    "02_Journal/The Adventures of a Party of Peculiar Personalities/Session 02 - 2024-04-18.md",
+    "02_Journal/The Adventures of a Party of Peculiar Personalities/Session 02 - Rex dröm.md",
+    "02_Journal/The Adventures of a Party of Peculiar Personalities/Session 03 - 2024-05-05.md",
+    "02_Journal/The Adventures of a Party of Peculiar Personalities/Session 04 - 2024-06-17.md",
+    "02_Journal/The Adventures of a Party of Peculiar Personalities/Session 05 - 2024-06-23 - Ending.md",
+    "03_NPCs/Gods/Kalsh.md",
+    "03_NPCs/Gods/Lammal.md",
+    "03_NPCs/Aksayakumara.md",
+    "03_NPCs/Al-Riyada.md",
+    "03_NPCs/Alham & Doni.md",
+    "03_NPCs/Brogho.md",
+    "03_NPCs/Gnoebbel.md",
+    "03_NPCs/Gull’a.md",
+    "03_NPCs/Robius.md",
+    "03_NPCs/Saxicus.md",
+    "03_NPCs/Semil Wildmagic.md",
+    "03_NPCs/Valetta Thornbury.md",
+    "04_Places/Divided Wilds/Divided Wilds.md",
+    "04_Places/Helm's Bearing/Helm’s Bearing.md",
+    "04_Places/Shrivell's Reach/Mahmoud’s Mystic Arcanum.md",
+    "04_Places/Shrivell's Reach/Mar-Dekesh.md",
+    "04_Places/Shrivell's Reach/Maraja.md",
+    "04_Places/Shrivell's Reach/Shrivell's Reach.md",
+    "04_Places/The Aarid Province/The Aarid Province.md",
+    "05_Quests/Bag Quests/Bag Quest 4.md",
+    "05_Quests/Bag Quests/Bag Quest 5.md",
+    "05_Quests/Current Goals - Singwin Mistforger.md",
+    "05_Quests/Current Quests - Patrik.md",
+    "94_Character_Creation/Classes and Subclasses/Druid.md",
+    "94_Character_Creation/Races.md",
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css",
+    "lib/media/pseudogriffon_familiar_1.jpeg",
+    "lib/media/gauntlets-of-eldritch-ferocity_1.jpeg",
+    "lib/media/dragonscale-whetstone_1.jpeg",
+    "lib/media/dragonscale-whetstone_2.jpeg",
+    "lib/media/dragonscale-whetstone_3.jpeg",
+    "lib/media/illusionist's-bracers.png",
+    "lib/media/pseudogriffon_familiar_2_cropped.jpeg",
+    "lib/media/gauntlets-of-eldritch-ferocity_2.jpeg",
+    "lib/media/rakitten-monster-info.png",
+    "lib/media/sunsnacker-monster-info.png",
+    "lib/media/splicer-augments-table.png",
+    "lib/media/image.jpg",
+    "lib/media/badtea-effects.jpeg",
+    "lib/media/blackscarywolfthatglows.jpeg"
+  ],
+  "mainDependencies": [
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
+  ],
+  "fileInfo": {
+    "00_attachments/misc/ImagePlaceholder.png.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 0,
+      "exportedPath": "00_attachments/misc/imageplaceholder.png.html",
+      "dependencies": []
+    },
+    "00_attachments/AArid Province Map@0.25x.png": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 0,
+      "exportedPath": "00_attachments/aarid-province-map@0.25x.png",
+      "dependencies": []
+    },
+    "00_attachments/Badtea-effects.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 131422,
+      "exportedPath": "00_attachments/badtea-effects.jpeg",
+      "dependencies": []
+    },
+    "00_attachments/BlackScaryWolfThatGlows.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 155940,
+      "exportedPath": "00_attachments/blackscarywolfthatglows.jpeg",
+      "dependencies": []
+    },
+    "00_attachments/Brogho 2023-09-21 14.21.18.excalidraw.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 2080,
+      "exportedPath": "00_attachments/brogho-2023-09-21-14.21.18.excalidraw.html",
+      "dependencies": []
+    },
+    "00_attachments/Divided Wilds 0.25.png": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 0,
+      "exportedPath": "00_attachments/divided-wilds-0.25.png",
+      "dependencies": []
+    },
+    "00_attachments/Dragonscale Whetstone_1.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 34598,
+      "exportedPath": "00_attachments/dragonscale-whetstone_1.jpeg",
+      "dependencies": []
+    },
+    "00_attachments/Dragonscale Whetstone_2.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 151804,
+      "exportedPath": "00_attachments/dragonscale-whetstone_2.jpeg",
+      "dependencies": []
+    },
+    "00_attachments/Dragonscale Whetstone_3.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 97807,
+      "exportedPath": "00_attachments/dragonscale-whetstone_3.jpeg",
+      "dependencies": []
+    },
+    "00_attachments/Enchantment Breaker.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 310548,
+      "exportedPath": "00_attachments/enchantment-breaker.jpeg",
+      "dependencies": []
+    },
+    "00_attachments/Gauntlets of Eldritch Ferocity_1.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 105300,
+      "exportedPath": "00_attachments/gauntlets-of-eldritch-ferocity_1.jpeg",
+      "dependencies": []
+    },
+    "00_attachments/Gauntlets of Eldritch Ferocity_2.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 110181,
+      "exportedPath": "00_attachments/gauntlets-of-eldritch-ferocity_2.jpeg",
+      "dependencies": []
+    },
+    "00_attachments/Helm's Bearing 0.25.png": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 0,
+      "exportedPath": "00_attachments/helm's-bearing-0.25.png",
+      "dependencies": []
+    },
+    "00_attachments/Illusionist's Bracers.png": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 26508,
+      "exportedPath": "00_attachments/illusionist's-bracers.png",
+      "dependencies": []
+    },
+    "00_attachments/image.jpg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 3342801,
+      "exportedPath": "00_attachments/image.jpg",
+      "dependencies": []
+    },
+    "00_attachments/Pasted image 20241116234822.png": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 219443,
+      "exportedPath": "00_attachments/pasted-image-20241116234822.png",
+      "dependencies": []
+    },
+    "00_attachments/Pseudogriffon_familiar_1.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 135328,
+      "exportedPath": "00_attachments/pseudogriffon_familiar_1.jpeg",
+      "dependencies": []
+    },
+    "00_attachments/Pseudogriffon_familiar_2.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 736447,
+      "exportedPath": "00_attachments/pseudogriffon_familiar_2.jpeg",
+      "dependencies": []
+    },
+    "00_attachments/Pseudogriffon_familiar_2_cropped.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 79962,
+      "exportedPath": "00_attachments/pseudogriffon_familiar_2_cropped.jpeg",
+      "dependencies": []
+    },
+    "00_attachments/Rakitten Monster Info.png": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 241258,
+      "exportedPath": "00_attachments/rakitten-monster-info.png",
+      "dependencies": []
+    },
+    "00_attachments/Shrivells Reach 25.png": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 68924674,
+      "exportedPath": "00_attachments/shrivells-reach-25.png",
+      "dependencies": []
+    },
+    "00_attachments/Splicer Augments Table.png": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 337547,
+      "exportedPath": "00_attachments/splicer-augments-table.png",
+      "dependencies": []
+    },
+    "00_attachments/Sunsnacker Monster Info.png": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 219443,
+      "exportedPath": "00_attachments/sunsnacker-monster-info.png",
+      "dependencies": []
+    },
+    "01_PCs/Not my PCs/Corydon.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 836,
+      "exportedPath": "01_pcs/not-my-pcs/corydon.html",
+      "dependencies": []
+    },
+    "01_PCs/Not my PCs/Hilmia.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 849,
+      "exportedPath": "01_pcs/not-my-pcs/hilmia.html",
+      "dependencies": []
+    },
+    "01_PCs/Not my PCs/Soroko Roko.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 842,
+      "exportedPath": "01_pcs/not-my-pcs/soroko-roko.html",
+      "dependencies": []
+    },
+    "01_PCs/Not my PCs/Tony Waru.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 843,
+      "exportedPath": "01_pcs/not-my-pcs/tony-waru.html",
+      "dependencies": []
+    },
+    "01_PCs/Singwin Mistwalker-folder/Race Info/Feathren.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 4302,
+      "exportedPath": "01_pcs/singwin-mistwalker-folder/race-info/feathren.html",
+      "dependencies": []
+    },
+    "01_PCs/Singwin Mistwalker-folder/Race Info/Feathren - Traits.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 3400,
+      "exportedPath": "01_pcs/singwin-mistwalker-folder/race-info/feathren-traits.html",
+      "dependencies": []
+    },
+    "01_PCs/Singwin Mistwalker-folder/Character Sheet.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 6017,
+      "exportedPath": "01_pcs/singwin-mistwalker-folder/character-sheet.html",
+      "dependencies": []
+    },
+    "01_PCs/Singwin Mistwalker-folder/Crafting.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 632,
+      "exportedPath": "01_pcs/singwin-mistwalker-folder/crafting.html",
+      "dependencies": []
+    },
+    "01_PCs/Singwin Mistwalker-folder/Feats.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 1928,
+      "exportedPath": "01_pcs/singwin-mistwalker-folder/feats.html",
+      "dependencies": []
+    },
+    "01_PCs/Singwin Mistwalker-folder/Interesting things.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 2833,
+      "exportedPath": "01_pcs/singwin-mistwalker-folder/interesting-things.html",
+      "dependencies": []
+    },
+    "01_PCs/Singwin Mistwalker-folder/Items.canvas": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 5918,
+      "exportedPath": "01_pcs/singwin-mistwalker-folder/items.html",
+      "dependencies": [
+        "lib/media/pseudogriffon_familiar_1.jpeg",
+        "lib/media/gauntlets-of-eldritch-ferocity_1.jpeg",
+        "lib/media/dragonscale-whetstone_1.jpeg",
+        "lib/media/dragonscale-whetstone_2.jpeg",
+        "lib/media/dragonscale-whetstone_3.jpeg",
+        "lib/media/illusionist's-bracers.png",
+        "lib/media/pseudogriffon_familiar_2_cropped.jpeg",
+        "lib/media/gauntlets-of-eldritch-ferocity_2.jpeg"
+      ]
+    },
+    "01_PCs/Singwin Mistwalker-folder/New information.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 653,
+      "exportedPath": "01_pcs/singwin-mistwalker-folder/new-information.html",
+      "dependencies": []
+    },
+    "01_PCs/Singwin Mistwalker-folder/Singwin Mistforger.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 2715,
+      "exportedPath": "01_pcs/singwin-mistwalker-folder/singwin-mistforger.html",
+      "dependencies": []
+    },
+    "01_PCs/Singwin Mistwalker-folder/Spells.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 3512,
+      "exportedPath": "01_pcs/singwin-mistwalker-folder/spells.html",
+      "dependencies": []
+    },
+    "01_PCs/Singwin Mistwalker-folder/The Astral Griffon.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 4606,
+      "exportedPath": "01_pcs/singwin-mistwalker-folder/the-astral-griffon.html",
+      "dependencies": []
+    },
+    "01_PCs/Singwin Mistwalker-folder/Warlock.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 14232,
+      "exportedPath": "01_pcs/singwin-mistwalker-folder/warlock.html",
+      "dependencies": []
+    },
+    "01_PCs/Tamer-Folder/Cappy.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 5063,
+      "exportedPath": "01_pcs/tamer-folder/cappy.html",
+      "dependencies": []
+    },
+    "01_PCs/Tamer-Folder/Companions.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 5264,
+      "exportedPath": "01_pcs/tamer-folder/companions.html",
+      "dependencies": [
+        "lib/media/rakitten-monster-info.png",
+        "lib/media/sunsnacker-monster-info.png"
+      ]
+    },
+    "01_PCs/Tamer-Folder/Spells.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 15053,
+      "exportedPath": "01_pcs/tamer-folder/spells.html",
+      "dependencies": []
+    },
+    "01_PCs/Tamer-Folder/Splicer - Training Paradigm.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 12159,
+      "exportedPath": "01_pcs/tamer-folder/splicer-training-paradigm.html",
+      "dependencies": [
+        "lib/media/splicer-augments-table.png"
+      ]
+    },
+    "01_PCs/Tamer-Folder/Tamer Class Features.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 33151,
+      "exportedPath": "01_pcs/tamer-folder/tamer-class-features.html",
+      "dependencies": []
+    },
+    "02_Journal/Other campaigns/The Redscales/Session 01 - 2024-11-17 - Blue vs Red Kobolds.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 10000,
+      "exportedPath": "02_journal/other-campaigns/the-redscales/session-01-2024-11-17-blue-vs-red-kobolds.html",
+      "dependencies": []
+    },
+    "02_Journal/Other campaigns/The Redscales/Session 02 - 2024-11-24 - Blue vs Red Kobolds.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 9871,
+      "exportedPath": "02_journal/other-campaigns/the-redscales/session-02-2024-11-24-blue-vs-red-kobolds.html",
+      "dependencies": []
+    },
+    "02_Journal/Other campaigns/The Redscales/Session 03 - 2024-11-29 - Blue vs Red Kobolds.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 6368,
+      "exportedPath": "02_journal/other-campaigns/the-redscales/session-03-2024-11-29-blue-vs-red-kobolds.html",
+      "dependencies": [
+        "lib/media/image.jpg"
+      ]
+    },
+    "02_Journal/Other campaigns/The Redscales/Session 04 - 2025-01-11 - Blue vs Red Kobolds.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 7161,
+      "exportedPath": "02_journal/other-campaigns/the-redscales/session-04-2025-01-11-blue-vs-red-kobolds.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 00 - 2022-08-13.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 1157,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-00-2022-08-13.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 01 - 2022-08-16.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 811,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-01-2022-08-16.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 02 - 2022-08-23.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 337,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-02-2022-08-23.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 03 - 2022-09-04.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 334,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-03-2022-09-04.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 04 - 2022-09-25.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 630,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-04-2022-09-25.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 05 - 2022-10-09.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 637,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-05-2022-10-09.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 06 - 2022-11-16.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 784,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-06-2022-11-16.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 07 - 2022-11-26 - Ärkedruiden-Darby.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 1155,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-07-2022-11-26-ärkedruiden-darby.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 08 - 2022-12-19 - Brogho (knarklangning).md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 669,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-08-2022-12-19-brogho-(knarklangning).html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 09 - 2023-01-06.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 795,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-09-2023-01-06.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 10 - 2023-01-14.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 1630,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-10-2023-01-14.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 11 - 2023-01-29.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 1017,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-11-2023-01-29.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 12 - 2023-02-18.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 1421,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-12-2023-02-18.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 13 - 2023-03-04.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 831,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-13-2023-03-04.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 14 - 2023-03-10.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 671,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-14-2023-03-10.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 15 - 2023-03-25.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 10192,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-15-2023-03-25.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 16 - 2023-04-02.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 5855,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-16-2023-04-02.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 17 - 2023-04-15 - Olof-DM.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 10809,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-17-2023-04-15-olof-dm.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 18 - 2023-04-23 - Olof-DM.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 7883,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-18-2023-04-23-olof-dm.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 19 - 2023-05-05 - Olof-DM.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 8999,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-19-2023-05-05-olof-dm.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 20 - 2023-05-15.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 15547,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-20-2023-05-15.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 21 - 2023-05-23.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 8432,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-21-2023-05-23.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 22 - 2023-05-28 - Maskerad.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 26239,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-22-2023-05-28-maskerad.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 23 - 2023-06-10.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 13371,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-23-2023-06-10.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 24 - 2023-06-17 - LAN-session med Johan.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 8549,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-24-2023-06-17-lan-session-med-johan.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 25 - 2023-06-20 - Lizardpeople in the Desert.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 6805,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-25-2023-06-20-lizardpeople-in-the-desert.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 26 - 2023-07-17 - Johan inte med, Gol spelas av Jacob.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 9827,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-26-2023-07-17-johan-inte-med,-gol-spelas-av-jacob.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 27 - 2023-07-24.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 14222,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-27-2023-07-24.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 28 - 2023-07-28.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 13125,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-28-2023-07-28.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 29 - 2023-08-13.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 9954,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-29-2023-08-13.html",
+      "dependencies": [
+        "lib/media/badtea-effects.jpeg"
+      ]
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 30 - 2023-08-26 - Vi träffar Valetta i templet.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 9243,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-30-2023-08-26-vi-träffar-valetta-i-templet.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 31 - 2023-09-18.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 9319,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-31-2023-09-18.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 32 - 2023-10-01.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 3829,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-32-2023-10-01.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 33 - 2023-10-07.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 18737,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-33-2023-10-07.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 34 - 2023-10-15.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 506,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-34-2023-10-15.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 35 - 2023-10-23.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 16118,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-35-2023-10-23.html",
+      "dependencies": [
+        "lib/media/blackscarywolfthatglows.jpeg"
+      ]
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 36 - 2023-11-03.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 20884,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-36-2023-11-03.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 37 - 2023-11-26.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 12064,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-37-2023-11-26.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 38 - 2023-12-03.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 12842,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-38-2023-12-03.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 39 - 2023-12-18.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 13116,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-39-2023-12-18.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 40 - 2023-12-26.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 19751,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-40-2023-12-26.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 41 - 2024-01-05.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 14576,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-41-2024-01-05.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 42 - 2024-01-12.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 21951,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-42-2024-01-12.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 43 - 2024-01-28.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 10265,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-43-2024-01-28.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 44 - 2024-02-04.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 14797,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-44-2024-02-04.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 45 - 2024-02-10.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 10390,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-45-2024-02-10.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 46 - 2024-03-02.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 9057,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-46-2024-03-02.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 47 - 2024-03-23.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 6250,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-47-2024-03-23.html",
+      "dependencies": []
+    },
+    "02_Journal/Thalbrine - Big campaign/Session 48 - 2024-08-23 - Starting the Orc-infiltration arc.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 14407,
+      "exportedPath": "02_journal/thalbrine-big-campaign/session-48-2024-08-23-starting-the-orc-infiltration-arc.html",
+      "dependencies": []
+    },
+    "02_Journal/The Adventures of a Party of Peculiar Personalities/Session 01 - 2024-04-06.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 9337,
+      "exportedPath": "02_journal/the-adventures-of-a-party-of-peculiar-personalities/session-01-2024-04-06.html",
+      "dependencies": []
+    },
+    "02_Journal/The Adventures of a Party of Peculiar Personalities/Session 02 - 2024-04-18.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 5928,
+      "exportedPath": "02_journal/the-adventures-of-a-party-of-peculiar-personalities/session-02-2024-04-18.html",
+      "dependencies": []
+    },
+    "02_Journal/The Adventures of a Party of Peculiar Personalities/Session 02 - Rex dröm.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 2359,
+      "exportedPath": "02_journal/the-adventures-of-a-party-of-peculiar-personalities/session-02-rex-dröm.html",
+      "dependencies": []
+    },
+    "02_Journal/The Adventures of a Party of Peculiar Personalities/Session 03 - 2024-05-05.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 9354,
+      "exportedPath": "02_journal/the-adventures-of-a-party-of-peculiar-personalities/session-03-2024-05-05.html",
+      "dependencies": []
+    },
+    "02_Journal/The Adventures of a Party of Peculiar Personalities/Session 04 - 2024-06-17.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 1088,
+      "exportedPath": "02_journal/the-adventures-of-a-party-of-peculiar-personalities/session-04-2024-06-17.html",
+      "dependencies": []
+    },
+    "02_Journal/The Adventures of a Party of Peculiar Personalities/Session 05 - 2024-06-23 - Ending.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 4246,
+      "exportedPath": "02_journal/the-adventures-of-a-party-of-peculiar-personalities/session-05-2024-06-23-ending.html",
+      "dependencies": []
+    },
+    "03_NPCs/Gods/Kalsh.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 0,
+      "exportedPath": "03_npcs/gods/kalsh.html",
+      "dependencies": []
+    },
+    "03_NPCs/Gods/Lammal.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 0,
+      "exportedPath": "03_npcs/gods/lammal.html",
+      "dependencies": []
+    },
+    "03_NPCs/Aksayakumara.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 976,
+      "exportedPath": "03_npcs/aksayakumara.html",
+      "dependencies": []
+    },
+    "03_NPCs/Al-Riyada.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 1117,
+      "exportedPath": "03_npcs/al-riyada.html",
+      "dependencies": []
+    },
+    "03_NPCs/Alham & Doni.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 1020,
+      "exportedPath": "03_npcs/alham-&-doni.html",
+      "dependencies": []
+    },
+    "03_NPCs/Brogho.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 2918,
+      "exportedPath": "03_npcs/brogho.html",
+      "dependencies": []
+    },
+    "03_NPCs/Gnoebbel.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 1043,
+      "exportedPath": "03_npcs/gnoebbel.html",
+      "dependencies": []
+    },
+    "03_NPCs/Gull’a.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 965,
+      "exportedPath": "03_npcs/gull’a.html",
+      "dependencies": []
+    },
+    "03_NPCs/Robius.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 954,
+      "exportedPath": "03_npcs/robius.html",
+      "dependencies": []
+    },
+    "03_NPCs/Saxicus.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 958,
+      "exportedPath": "03_npcs/saxicus.html",
+      "dependencies": []
+    },
+    "03_NPCs/Semil Wildmagic.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 1076,
+      "exportedPath": "03_npcs/semil-wildmagic.html",
+      "dependencies": []
+    },
+    "03_NPCs/Valetta Thornbury.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 931,
+      "exportedPath": "03_npcs/valetta-thornbury.html",
+      "dependencies": []
+    },
+    "04_Places/Divided Wilds/Divided Wilds.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 72,
+      "exportedPath": "04_places/divided-wilds/divided-wilds.html",
+      "dependencies": []
+    },
+    "04_Places/Helm's Bearing/Helm’s Bearing.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 87,
+      "exportedPath": "04_places/helm's-bearing/helm’s-bearing.html",
+      "dependencies": []
+    },
+    "04_Places/Shrivell's Reach/Mahmoud’s Mystic Arcanum.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 17,
+      "exportedPath": "04_places/shrivell's-reach/mahmoud’s-mystic-arcanum.html",
+      "dependencies": []
+    },
+    "04_Places/Shrivell's Reach/Mar-Dekesh.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 239,
+      "exportedPath": "04_places/shrivell's-reach/mar-dekesh.html",
+      "dependencies": []
+    },
+    "04_Places/Shrivell's Reach/Maraja.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 144,
+      "exportedPath": "04_places/shrivell's-reach/maraja.html",
+      "dependencies": []
+    },
+    "04_Places/Shrivell's Reach/Shrivell's Reach.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 454,
+      "exportedPath": "04_places/shrivell's-reach/shrivell's-reach.html",
+      "dependencies": []
+    },
+    "04_Places/The Aarid Province/The Aarid Province.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 458,
+      "exportedPath": "04_places/the-aarid-province/the-aarid-province.html",
+      "dependencies": []
+    },
+    "05_Quests/Bag Quests/Bag Quest 4.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 696,
+      "exportedPath": "05_quests/bag-quests/bag-quest-4.html",
+      "dependencies": []
+    },
+    "05_Quests/Bag Quests/Bag Quest 5.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 634,
+      "exportedPath": "05_quests/bag-quests/bag-quest-5.html",
+      "dependencies": []
+    },
+    "05_Quests/Current Goals - Singwin Mistforger.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 3402,
+      "exportedPath": "05_quests/current-goals-singwin-mistforger.html",
+      "dependencies": []
+    },
+    "05_Quests/Current Quests - Patrik.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 1342,
+      "exportedPath": "05_quests/current-quests-patrik.html",
+      "dependencies": []
+    },
+    "94_Character_Creation/Classes and Subclasses/Druid.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 5963,
+      "exportedPath": "94_character_creation/classes-and-subclasses/druid.html",
+      "dependencies": []
+    },
+    "94_Character_Creation/Races.md": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 0,
+      "exportedPath": "94_character_creation/races.html",
+      "dependencies": []
+    },
+    "lib/media/pseudogriffon_familiar_1.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 135328,
+      "exportedPath": "lib/media/pseudogriffon_familiar_1.jpeg",
+      "dependencies": []
+    },
+    "lib/media/gauntlets-of-eldritch-ferocity_1.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 105300,
+      "exportedPath": "lib/media/gauntlets-of-eldritch-ferocity_1.jpeg",
+      "dependencies": []
+    },
+    "lib/media/dragonscale-whetstone_1.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 34598,
+      "exportedPath": "lib/media/dragonscale-whetstone_1.jpeg",
+      "dependencies": []
+    },
+    "lib/media/dragonscale-whetstone_2.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 151804,
+      "exportedPath": "lib/media/dragonscale-whetstone_2.jpeg",
+      "dependencies": []
+    },
+    "lib/media/dragonscale-whetstone_3.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 97807,
+      "exportedPath": "lib/media/dragonscale-whetstone_3.jpeg",
+      "dependencies": []
+    },
+    "lib/media/illusionist's-bracers.png": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 26508,
+      "exportedPath": "lib/media/illusionist's-bracers.png",
+      "dependencies": []
+    },
+    "lib/media/pseudogriffon_familiar_2_cropped.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 79962,
+      "exportedPath": "lib/media/pseudogriffon_familiar_2_cropped.jpeg",
+      "dependencies": []
+    },
+    "lib/media/gauntlets-of-eldritch-ferocity_2.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 110181,
+      "exportedPath": "lib/media/gauntlets-of-eldritch-ferocity_2.jpeg",
+      "dependencies": []
+    },
+    "lib/media/rakitten-monster-info.png": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 241258,
+      "exportedPath": "lib/media/rakitten-monster-info.png",
+      "dependencies": []
+    },
+    "lib/media/sunsnacker-monster-info.png": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 219443,
+      "exportedPath": "lib/media/sunsnacker-monster-info.png",
+      "dependencies": []
+    },
+    "lib/media/splicer-augments-table.png": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 337547,
+      "exportedPath": "lib/media/splicer-augments-table.png",
+      "dependencies": []
+    },
+    "lib/media/image.jpg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 3342801,
+      "exportedPath": "lib/media/image.jpg",
+      "dependencies": []
+    },
+    "lib/media/badtea-effects.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 131422,
+      "exportedPath": "lib/media/badtea-effects.jpeg",
+      "dependencies": []
+    },
+    "lib/media/blackscarywolfthatglows.jpeg": {
+      "modifiedTime": 1736864431631,
+      "sourceSize": 155940,
+      "exportedPath": "lib/media/blackscarywolfthatglows.jpeg",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 62707,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 11704,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 131018,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 370,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1736864601571,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    }
+  }
+}
