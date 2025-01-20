@@ -1,20 +1,20 @@
 <!DOCTYPE html> <html><head>
-		<title>Sorcerer</title>
+		<title>Ranger</title>
 		<base href="..\../">
 		<meta id="root-path" root-path="..\../">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
 		<meta charset="UTF-8">
-		<meta name="description" content="Thalbrine - Sorcerer">
-		<meta property="og:title" content="Sorcerer">
-		<meta property="og:description" content="Thalbrine - Sorcerer">
+		<meta name="description" content="Thalbrine - Ranger">
+		<meta property="og:title" content="Ranger">
+		<meta property="og:description" content="Thalbrine - Ranger">
 		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://toarulle.github.io/94_character_creation/classes-and-subclasses/sorcerer.html">
-		<meta property="og:image" content="https://toarulle.github.io/lib/media/sorcerer-frost-magic.png">
+		<meta property="og:url" content="https://toarulle.github.io/94_character_creation/classes-and-subclasses/ranger.html">
+		<meta property="og:image" content="https://toarulle.github.io/lib/media/ranger-winter-trapper.png">
 		<meta property="og:site_name" content="Thalbrine">
 		<meta name="author" content="Knasingen"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://toarulle.github.io/lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="lib/scripts/pixi.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="lib/scripts/minisearch.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/other-plugins.css"></noscript><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><pre class="frontmatter language-yaml" tabindex="0" style="display: none;"><code class="language-yaml is-loaded"><span class="token key atrule">sourcebook</span><span class="token punctuation">:</span> DnD 5e
 <span class="token key atrule">tags</span><span class="token punctuation">:</span>
   <span class="token punctuation">-</span> class
-<span class="token key atrule">done</span><span class="token punctuation">:</span> <span class="token boolean important">false</span></code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Sorcerer Features"><p dir="auto">Sorcerer Features</p></h1><div class="el-h1 heading-wrapper"><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<span class="token key atrule">done</span><span class="token punctuation">:</span> <span class="token boolean important">false</span></code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Class Features"><p dir="auto">Class Features</p></h1><div class="el-h1 heading-wrapper"><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
 <thead>
 <tr>
 <th dir="ltr"><strong>Level</strong></th>
@@ -175,19 +175,11 @@
 <th dir="ltr"><strong>3rd</strong></th>
 <th dir="ltr">4th</th>
 <th dir="ltr">5th</th>
-<th dir="ltr">6th</th>
-<th dir="ltr">7th</th>
-<th dir="ltr">8th</th>
-<th dir="ltr">9th</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td dir="ltr">1st</td>
-<td dir="auto">2</td>
-<td dir="auto">-</td>
-<td dir="auto">-</td>
-<td dir="auto">-</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
@@ -196,11 +188,7 @@
 </tr>
 <tr>
 <td dir="ltr">2nd</td>
-<td dir="auto">3</td>
-<td dir="auto">-</td>
-<td dir="auto">-</td>
-<td dir="auto">-</td>
-<td dir="auto">-</td>
+<td dir="auto">2</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
@@ -208,11 +196,7 @@
 </tr>
 <tr>
 <td dir="ltr">3rd</td>
-<td dir="auto">4</td>
-<td dir="auto">2</td>
-<td dir="auto">-</td>
-<td dir="auto">-</td>
-<td dir="auto">-</td>
+<td dir="auto">3</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
@@ -220,11 +204,7 @@
 </tr>
 <tr>
 <td dir="ltr">4th</td>
-<td dir="auto">4</td>
 <td dir="auto">3</td>
-<td dir="auto">-</td>
-<td dir="auto">-</td>
-<td dir="auto">-</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
@@ -233,11 +213,7 @@
 <tr>
 <td dir="ltr">5th</td>
 <td dir="auto">4</td>
-<td dir="auto">3</td>
 <td dir="auto">2</td>
-<td dir="auto">-</td>
-<td dir="auto">-</td>
-<td dir="auto">-</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
@@ -245,11 +221,7 @@
 <tr>
 <td dir="ltr">6th</td>
 <td dir="auto">4</td>
-<td dir="auto">3</td>
-<td dir="auto">3</td>
-<td dir="auto">-</td>
-<td dir="auto">-</td>
-<td dir="auto">-</td>
+<td dir="auto">2</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
@@ -258,10 +230,6 @@
 <td dir="ltr">7th</td>
 <td dir="auto">4</td>
 <td dir="auto">3</td>
-<td dir="auto">3</td>
-<td dir="auto">1</td>
-<td dir="auto">-</td>
-<td dir="auto">-</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
@@ -270,10 +238,6 @@
 <td dir="ltr">8th</td>
 <td dir="auto">4</td>
 <td dir="auto">3</td>
-<td dir="auto">3</td>
-<td dir="auto">2</td>
-<td dir="auto">-</td>
-<td dir="auto">-</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
@@ -282,11 +246,7 @@
 <td dir="ltr">9th</td>
 <td dir="auto">4</td>
 <td dir="auto">3</td>
-<td dir="auto">3</td>
-<td dir="auto">3</td>
-<td dir="auto">1</td>
-<td dir="auto">-</td>
-<td dir="auto">-</td>
+<td dir="auto">2</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
 </tr>
@@ -294,11 +254,7 @@
 <td dir="ltr">10th</td>
 <td dir="auto">4</td>
 <td dir="auto">3</td>
-<td dir="auto">3</td>
-<td dir="auto">3</td>
 <td dir="auto">2</td>
-<td dir="auto">-</td>
-<td dir="auto">-</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
 </tr>
@@ -307,10 +263,6 @@
 <td dir="auto">4</td>
 <td dir="auto">3</td>
 <td dir="auto">3</td>
-<td dir="auto">3</td>
-<td dir="auto">2</td>
-<td dir="auto">1</td>
-<td dir="auto">-</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
 </tr>
@@ -319,10 +271,6 @@
 <td dir="auto">4</td>
 <td dir="auto">3</td>
 <td dir="auto">3</td>
-<td dir="auto">3</td>
-<td dir="auto">2</td>
-<td dir="auto">1</td>
-<td dir="auto">-</td>
 <td dir="auto">-</td>
 <td dir="auto">-</td>
 </tr>
@@ -331,11 +279,7 @@
 <td dir="auto">4</td>
 <td dir="auto">3</td>
 <td dir="auto">3</td>
-<td dir="auto">3</td>
-<td dir="auto">2</td>
 <td dir="auto">1</td>
-<td dir="auto">1</td>
-<td dir="auto">-</td>
 <td dir="auto">-</td>
 </tr>
 <tr>
@@ -343,11 +287,7 @@
 <td dir="auto">4</td>
 <td dir="auto">3</td>
 <td dir="auto">3</td>
-<td dir="auto">3</td>
-<td dir="auto">2</td>
 <td dir="auto">1</td>
-<td dir="auto">1</td>
-<td dir="auto">-</td>
 <td dir="auto">-</td>
 </tr>
 <tr>
@@ -355,11 +295,7 @@
 <td dir="auto">4</td>
 <td dir="auto">3</td>
 <td dir="auto">3</td>
-<td dir="auto">3</td>
 <td dir="auto">2</td>
-<td dir="auto">1</td>
-<td dir="auto">1</td>
-<td dir="auto">1</td>
 <td dir="auto">-</td>
 </tr>
 <tr>
@@ -367,11 +303,7 @@
 <td dir="auto">4</td>
 <td dir="auto">3</td>
 <td dir="auto">3</td>
-<td dir="auto">3</td>
 <td dir="auto">2</td>
-<td dir="auto">1</td>
-<td dir="auto">1</td>
-<td dir="auto">1</td>
 <td dir="auto">-</td>
 </tr>
 <tr>
@@ -380,10 +312,6 @@
 <td dir="auto">3</td>
 <td dir="auto">3</td>
 <td dir="auto">3</td>
-<td dir="auto">2</td>
-<td dir="auto">1</td>
-<td dir="auto">1</td>
-<td dir="auto">1</td>
 <td dir="auto">1</td>
 </tr>
 <tr>
@@ -392,10 +320,6 @@
 <td dir="auto">3</td>
 <td dir="auto">3</td>
 <td dir="auto">3</td>
-<td dir="auto">3</td>
-<td dir="auto">1</td>
-<td dir="auto">1</td>
-<td dir="auto">1</td>
 <td dir="auto">1</td>
 </tr>
 <tr>
@@ -404,11 +328,7 @@
 <td dir="auto">3</td>
 <td dir="auto">3</td>
 <td dir="auto">3</td>
-<td dir="auto">3</td>
 <td dir="auto">2</td>
-<td dir="auto">1</td>
-<td dir="auto">1</td>
-<td dir="auto">1</td>
 </tr>
 <tr>
 <td dir="ltr">20th</td>
@@ -416,23 +336,48 @@
 <td dir="auto">3</td>
 <td dir="auto">3</td>
 <td dir="auto">3</td>
-<td dir="auto">3</td>
 <td dir="auto">2</td>
-<td dir="auto">2</td>
-<td dir="auto">1</td>
-<td dir="auto">1</td>
 </tr>
 </tbody>
-</table></div></div></div><div class="el-h1 heading-wrapper"><h1 data-heading="Subclasses" dir="auto" class="heading" id="Subclasses">Subclasses</h1><div class="heading-children"><div class="el-h2 heading-wrapper"><h2 data-heading="Frost Magic" dir="auto" class="heading" id="Frost_Magic"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Frost Magic</h2><div class="heading-children"><div class="el-p"><p dir="auto"><a href="?query=tag:TheGriffonsSaddlebag_BookOne" class="tag" target="_blank" rel="noopener nofollow">#TheGriffonsSaddlebag_BookOne</a><br>
-<span alt="00_attachments/ClassImages/Sorcerer - Frost Magic.png" src="00_attachments/ClassImages/Sorcerer - Frost Magic.png" class="internal-embed media-embed image-embed is-loaded"><img alt="00_attachments/ClassImages/Sorcerer - Frost Magic.png" src="lib/media/sorcerer-frost-magic.png"></span></p></div><div class="el-p"><p dir="auto">A sorcerer’s magic comes from within, drawing from a genetic or given boon. These mighty spellcasters grow in power in startling ways, and can twist and reshape the fabric of magic around them. A sorcerer may struggle to keep their own power in check, but many would agree that the ends justify the dangers placed upon them. While the mantle of ‘sorcerer’ is thrust upon all sorcerers, their origins are often unique. </p></div><div class="el-p"><p dir="auto">Your magic is created by pieces of the Everheart, the center and driving force behind the expanding Everglacier wastelands. This power within you might be passed down through ancestors who protected the glacier’s magical core, or it might have been forced upon you through a chance encounter with the enchanted ice itself. Regardless of the source of your power, you are a creature of cold incarnate. </p></div><div class="el-h3 heading-wrapper"><h3 data-heading="Frozen Body" dir="auto" class="heading" id="Frozen_Body"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Frozen Body</h3><div class="heading-children"><div class="el-p"><p dir="auto"><em>1st-level Frost Magic Feature</em><br>
-Starting at 1st level, your skin takes on a faintly ice-like, crystalline glow. Your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.</p></div><div class="el-p"><p dir="auto">In addition, you’re most comfortable in the ice and snow. You ignore difficult terrain created by ice or snow, and when you walk on ice, you only spend 1 foot of movement for every 2 feet you move.</p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Create Ice" dir="auto" class="heading" id="Create_Ice"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Create Ice</h3><div class="heading-children"><div class="el-p"><p dir="auto"><em>1st-level Frost Magic Feature</em><br>
-At 1st level, you can use a bonus action to turn up to 5 contiguous 5-foot spaces on the ground into icy terrain, originating from the ground at your feet. The ice is difficult terrain and lasts until the end of your next turn.</p></div><div class="el-p"><p dir="auto">You can spend up to 2 sorcery points when creating this terrain to increase the number of spaces you can target with this feature by 5 for each sorcery point spent. </p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Cold-Hearted" dir="auto" class="heading" id="Cold-Hearted"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Cold-Hearted</h3><div class="heading-children"><div class="el-p"><p dir="auto"><em>6th-level Frost Magic Feature</em><br>
-At 6th level, you gain resistance to cold damage. When you deal cold damage to a Large or smaller creature with a spell, you can spend 1 or more sorcery points to attempt to freeze it in place. When you do, that creature’s speed is reduced by 15 feet for each sorcery point you spend until the end of its next turn. If you reduce a creature’s speed to 0 in this way, it takes 2d6 cold damage.</p></div><div class="el-p"><p dir="auto">In addition, you can now use your Create Ice feature to freeze water as well as ground.</p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Flash Freeze" dir="auto" class="heading" id="Flash_Freeze"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Flash Freeze</h3><div class="heading-children"><div class="el-p"><p dir="auto"><em>14th-level Frost Magic Feature</em><br>
-By 14th level, you’re most confident on the ice. Your movement doesn’t provoke opportunity attacks while you’re walking on icy terrain.</p></div><div class="el-p"><p dir="auto">In addition, when a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to release a blast of freezing cold, dealing cold damage to the attacker equal to half your sorcerer level + your Charisma modifier. When you do, you can also create up to 5 contiguous spaces of icy terrain, originating from the ground at your feet. This icy terrain lasts until the end of your next turn.</p></div><div class="el-p"><p dir="auto">Frozen Soul<br>
-<em>18th-level Frost Magic Feature</em><br>
-At 18th level, you gain immunity to cold damage and resistance to fire damage.</p></div><div class="el-p"><p dir="auto">You also learn the wall of ice spell. The spell counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know. In addition, you can cast it once without expending a spell slot. When you do, the panels of ice created by the spell don’t need to be contiguous with one another. Once you cast the spell in this way, you can’t do so again until you finish a long rest.</p></div><div class="mod-footer mod-ui"></div></div></div></div></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+</table></div></div></div><div class="el-h1 heading-wrapper"><h1 data-heading="Subclasses" dir="auto" class="heading" id="Subclasses">Subclasses</h1><div class="heading-children"><div class="el-h2 heading-wrapper"><h2 data-heading="Winter Trapper" dir="auto" class="heading" id="Winter_Trapper"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Winter Trapper</h2><div class="heading-children"><div class="el-p"><p dir="auto"><a href="?query=tag:TheGriffonsSaddlebag_BookOne" class="tag" target="_blank" rel="noopener nofollow">#TheGriffonsSaddlebag_BookOne</a><br>
+<span alt="00_attachments/ClassImages/Ranger - Winter Trapper.png" src="00_attachments/ClassImages/Ranger - Winter Trapper.png" class="internal-embed media-embed image-embed is-loaded"><img alt="00_attachments/ClassImages/Ranger - Winter Trapper.png" src="lib/media/ranger-winter-trapper.png"></span></p></div><div class="el-h3 heading-wrapper"><h3 data-heading="**Winter Trapper Magic**" dir="auto" class="heading" id="**Winter_Trapper_Magic**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>Winter Trapper Magic</strong></h3><div class="heading-children"><div class="el-p"><p dir="auto"><em>3rd-level Winter Trapper Feature</em><br>
+Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Winter Trapper Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.</p></div><div class="el-h4 heading-wrapper"><h4 data-heading="Winter Trapper Spells" dir="auto" class="heading" id="Winter_Trapper_Spells"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Winter Trapper Spells</h4><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Ranger Level</th>
+<th dir="ltr">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">3rd</td>
+<td dir="ltr"><em>expeditious retreat</em></td>
+</tr>
+<tr>
+<td dir="ltr">5th</td>
+<td dir="ltr"><em>mirror image</em></td>
+</tr>
+<tr>
+<td dir="ltr">9th</td>
+<td dir="ltr"><em>sleet storm</em></td>
+</tr>
+<tr>
+<td dir="ltr">13th</td>
+<td dir="ltr"><em>hallucinatory terrain</em></td>
+</tr>
+<tr>
+<td dir="ltr">17th</td>
+<td dir="ltr"><em>mislead</em></td>
+</tr>
+</tbody>
+</table></div></div></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Pin Down" dir="auto" class="heading" id="Pin_Down"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Pin Down</h3><div class="heading-children"><div class="el-p"><p dir="auto"><em>3rd-level Winter Trapper Feature</em><br>
+At 3rd level, you learn how to keep your prey exactly where you want them. Once on each of your turns when you make a weapon attack, you can attempt to pin down that target. You make this choice before rolling the attack. If it hits, the target takes an extra 1d8 damage of the weapon’s type and its speed is reduced by 10 feet until the start of your next turn.</p></div><div class="el-p"><p dir="auto">When you reach 11th level in this class, the extra damage increases to 2d8, and if the attack hits, the target also can’t take reactions until the start of your next turn.</p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Sure-Footed" dir="auto" class="heading" id="Sure-Footed"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Sure-Footed</h3><div class="heading-children"><div class="el-p"><p dir="auto"><em>7th-level Winter Trapper Feature</em><br>
+By 7th level, you know how best to keep your footing. While you’re not incapacitated, you can’t be knocked prone.</p></div><div class="el-p"><p dir="auto">In addition, your archetype’s wintry history grants you additional benefits. You ignore difficult terrain created by ice or snow, and you have advantage on Dexterity (Stealth) checks while in icy or snowy terrain.</p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Helpless Prey" dir="auto" class="heading" id="Helpless_Prey"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Helpless Prey</h3><div class="heading-children"><div class="el-p"><p dir="auto"><em>7th-level Winter Trapper Feature</em><br>
+Also at 7th level, attacking a prone creature doesn’t impose disadvantage on your ranged attack rolls.</p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Magic Snare" dir="auto" class="heading" id="Magic_Snare"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Magic Snare</h3><div class="heading-children"><div class="el-p"><p dir="auto"><em>11th-level Winter Trapper Feature</em><br>
+At 11th level, you’ve learned how to quickly set undetectable magical traps. You can imperceptibly create one of these magical snares in the ground at your feet as a bonus action on your turn. The first Large or smaller creature other than you that steps in that space within 1 minute must make a Dexterity saving throw against your spell save DC. On a failed save, a creature takes 2d8 piercing damage and has its speed reduced to 0 until the end of its current turn, as the ground opens up and clamps down on it. On a successful save, a creature takes half as much piercing damage, and its speed is unaffected.</p></div><div class="el-p"><p dir="auto">When you create a snare, you can designate any creatures you choose, and the trap ignores them. A creature that can see invisible creatures and objects (such as one benefiting from <em>see invisibility</em> or truesight) can see these traps. You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest.</p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Tripped Defenses" dir="auto" class="heading" id="Tripped_Defenses"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Tripped Defenses</h3><div class="heading-children"><div class="el-p"><p dir="auto"><em>15th-level Winter Trapper Feature</em><br>
+At 15th level, you have learned to use a creature’s mistakes against them. When a Large or smaller creature within 5 feet of you that you can see misses you with an attack, you can use your reaction to knock that creature prone. When you do, you can make either one weapon attack against that creature or move up to half your speed immediately after its attack.</p></div><div class="mod-footer mod-ui"></div></div></div></div></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
 		<div class="graph-view-container">
 			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
 			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
 		</div>
-		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="94_character_creation\classes-and-subclasses\sorcerer.html#Sorcerer Features"><div class="tree-item-contents heading-link" heading-name="Sorcerer Features"><span class="tree-item-title">Sorcerer Features</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="1"><a class="tree-link" href="94_character_creation\classes-and-subclasses\sorcerer.html#Subclasses"><div class="tree-item-contents heading-link" heading-name="Subclasses"><span class="tree-item-title">Subclasses</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-link" href="94_character_creation\classes-and-subclasses\sorcerer.html#Frost_Magic"><div class="tree-item-contents heading-link" heading-name="Frost Magic"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Frost Magic</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="94_character_creation\classes-and-subclasses\sorcerer.html#Frozen_Body"><div class="tree-item-contents heading-link" heading-name="Frozen Body"><span class="tree-item-title">Frozen Body</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="94_character_creation\classes-and-subclasses\sorcerer.html#Create_Ice"><div class="tree-item-contents heading-link" heading-name="Create Ice"><span class="tree-item-title">Create Ice</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="94_character_creation\classes-and-subclasses\sorcerer.html#Cold-Hearted"><div class="tree-item-contents heading-link" heading-name="Cold-Hearted"><span class="tree-item-title">Cold-Hearted</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="94_character_creation\classes-and-subclasses\sorcerer.html#Flash_Freeze"><div class="tree-item-contents heading-link" heading-name="Flash Freeze"><span class="tree-item-title">Flash Freeze</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="94_character_creation\classes-and-subclasses\ranger.html#Class Features"><div class="tree-item-contents heading-link" heading-name="Class Features"><span class="tree-item-title">Class Features</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="1"><a class="tree-link" href="94_character_creation\classes-and-subclasses\ranger.html#Subclasses"><div class="tree-item-contents heading-link" heading-name="Subclasses"><span class="tree-item-title">Subclasses</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-link" href="94_character_creation\classes-and-subclasses\ranger.html#Winter_Trapper"><div class="tree-item-contents heading-link" heading-name="Winter Trapper"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Winter Trapper</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-link" href="94_character_creation\classes-and-subclasses\ranger.html#**Winter_Trapper_Magic**"><div class="tree-item-contents heading-link" heading-name="**Winter Trapper Magic**"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title"><strong>Winter Trapper Magic</strong></span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="4"><a class="tree-link" href="94_character_creation\classes-and-subclasses\ranger.html#Winter_Trapper_Spells"><div class="tree-item-contents heading-link" heading-name="Winter Trapper Spells"><span class="tree-item-title">Winter Trapper Spells</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="94_character_creation\classes-and-subclasses\ranger.html#Pin_Down"><div class="tree-item-contents heading-link" heading-name="Pin Down"><span class="tree-item-title">Pin Down</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="94_character_creation\classes-and-subclasses\ranger.html#Sure-Footed"><div class="tree-item-contents heading-link" heading-name="Sure-Footed"><span class="tree-item-title">Sure-Footed</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="94_character_creation\classes-and-subclasses\ranger.html#Helpless_Prey"><div class="tree-item-contents heading-link" heading-name="Helpless Prey"><span class="tree-item-title">Helpless Prey</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="94_character_creation\classes-and-subclasses\ranger.html#Magic_Snare"><div class="tree-item-contents heading-link" heading-name="Magic Snare"><span class="tree-item-title">Magic Snare</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="94_character_creation\classes-and-subclasses\ranger.html#Tripped_Defenses"><div class="tree-item-contents heading-link" heading-name="Tripped Defenses"><span class="tree-item-title">Tripped Defenses</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>

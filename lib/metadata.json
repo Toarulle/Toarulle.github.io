@@ -1,36 +1,11 @@
 {
   "vaultName": "Thalbrine",
-  "lastExport": 1737320062938,
+  "lastExport": 1737406564334,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
-    "00_attachments/ClassImages/Bender.png",
-    "00_attachments/ClassImages/Bender - Ferocity.png",
-    "00_attachments/ClassImages/Bender - Fortification.png",
-    "00_attachments/ClassImages/Bender - Invigoration.png",
-    "00_attachments/ClassImages/Splicer Augments Table.png",
-    "00_attachments/ClassImages/Tamer.png",
-    "00_attachments/ClassImages/Tamer - Infuser.png",
-    "00_attachments/ClassImages/Tamer - Leader.png",
-    "00_attachments/ClassImages/Tamer - Necromancer.png",
-    "00_attachments/ClassImages/Tamer - Splicer.png",
-    "00_attachments/Items/Badtea-effects.jpeg",
-    "00_attachments/Items/Dragonscale Whetstone_1.jpeg",
-    "00_attachments/Items/Dragonscale Whetstone_2.jpeg",
-    "00_attachments/Items/Dragonscale Whetstone_3.jpeg",
-    "00_attachments/Items/Enchantment Breaker.jpeg",
-    "00_attachments/Items/Gauntlets of Eldritch Ferocity_1.jpeg",
-    "00_attachments/Items/Gauntlets of Eldritch Ferocity_2.jpeg",
-    "00_attachments/Items/Illusionist's Bracers.png",
-    "00_attachments/misc/Redscales Big Pile fight.jpg",
-    "00_attachments/Monsters/BlackScaryWolfThatGlows.jpeg",
-    "00_attachments/Monsters/Pseudogriffon_familiar_1.jpeg",
-    "00_attachments/Monsters/Pseudogriffon_familiar_2.jpeg",
-    "00_attachments/Monsters/Pseudogriffon_familiar_2_cropped.jpeg",
-    "00_attachments/Monsters/Rakitten Monster Info.png",
-    "00_attachments/Monsters/Sunsnacker Monster Info.png",
     "01_PCs/Not my PCs/Corydon.md",
     "01_PCs/Not my PCs/Hilmia.md",
     "01_PCs/Not my PCs/Soroko Roko.md",
@@ -143,9 +118,12 @@
     "94_Character_Creation/Classes and Subclasses/Druid.md",
     "94_Character_Creation/Classes and Subclasses/Fighter.md",
     "94_Character_Creation/Classes and Subclasses/Monk.md",
+    "94_Character_Creation/Classes and Subclasses/Paladin.md",
+    "94_Character_Creation/Classes and Subclasses/Ranger.md",
     "94_Character_Creation/Classes and Subclasses/Rogue.md",
     "94_Character_Creation/Classes and Subclasses/Sorcerer.md",
     "94_Character_Creation/Classes and Subclasses/Tamer.md",
+    "94_Character_Creation/Classes and Subclasses/Untitled.md",
     "94_Character_Creation/Classes and Subclasses/Warlock.md",
     "94_Character_Creation/Classes and Subclasses/Wizard.md",
     "94_Character_Creation/Races/Cappy.md",
@@ -154,6 +132,30 @@
     "94_Character_Creation/Spells.md",
     "index.md",
     "Session Summary.md",
+    "lib/media/barbarian.png",
+    "lib/media/barbarian-glacier.png",
+    "lib/media/bard-college-of-dance.png",
+    "lib/media/bender.png",
+    "lib/media/bender-ferocity.png",
+    "lib/media/bender-fortification.png",
+    "lib/media/bender-invigoration.png",
+    "lib/media/cleric-astral.png",
+    "lib/media/druid-unbroken-circle.png",
+    "lib/media/fighter-couatl-herald.png",
+    "lib/media/monk-way-of-the-celestial.png",
+    "lib/media/paladin-oath-of-the-hearth.png",
+    "lib/media/ranger-winter-trapper.png",
+    "lib/media/rogue-runetagger.png",
+    "lib/media/sorcerer-frost-magic.png",
+    "lib/media/tamer.png",
+    "lib/media/tamer-leader.png",
+    "lib/media/tamer-infuser.png",
+    "lib/media/tamer-necromancer.png",
+    "lib/media/tamer-splicer.png",
+    "lib/media/splicer-augments-table.png",
+    "lib/media/warlock-the-astral-griffon.png",
+    "lib/media/wizard-material-magic.png",
+    "lib/media/feathren.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -169,28 +171,6 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
-    "lib/fonts/mathjax_zero.woff",
-    "lib/fonts/mathjax_main-regular.woff",
-    "lib/fonts/mathjax_main-bold.woff",
-    "lib/fonts/mathjax_math-italic.woff",
-    "lib/fonts/mathjax_main-italic.woff",
-    "lib/fonts/mathjax_math-bolditalic.woff",
-    "lib/fonts/mathjax_size1-regular.woff",
-    "lib/fonts/mathjax_size2-regular.woff",
-    "lib/fonts/mathjax_size3-regular.woff",
-    "lib/fonts/mathjax_size4-regular.woff",
-    "lib/fonts/mathjax_ams-regular.woff",
-    "lib/fonts/mathjax_calligraphic-regular.woff",
-    "lib/fonts/mathjax_calligraphic-bold.woff",
-    "lib/fonts/mathjax_fraktur-regular.woff",
-    "lib/fonts/mathjax_fraktur-bold.woff",
-    "lib/fonts/mathjax_sansserif-regular.woff",
-    "lib/fonts/mathjax_sansserif-bold.woff",
-    "lib/fonts/mathjax_sansserif-italic.woff",
-    "lib/fonts/mathjax_script-regular.woff",
-    "lib/fonts/mathjax_typewriter-regular.woff",
-    "lib/fonts/mathjax_vector-regular.woff",
-    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -215,19 +195,9 @@
     "lib/media/gauntlets-of-eldritch-ferocity_2.jpeg",
     "lib/media/rakitten-monster-info.png",
     "lib/media/sunsnacker-monster-info.png",
-    "lib/media/splicer-augments-table.png",
     "lib/media/redscales-big-pile-fight.jpg",
     "lib/media/badtea-effects.jpeg",
-    "lib/media/blackscarywolfthatglows.jpeg",
-    "lib/media/bender.png",
-    "lib/media/bender-ferocity.png",
-    "lib/media/bender-fortification.png",
-    "lib/media/bender-invigoration.png",
-    "lib/media/tamer.png",
-    "lib/media/tamer-leader.png",
-    "lib/media/tamer-infuser.png",
-    "lib/media/tamer-necromancer.png",
-    "lib/media/tamer-splicer.png"
+    "lib/media/blackscarywolfthatglows.jpeg"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -245,28 +215,6 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
-    "lib/fonts/mathjax_zero.woff",
-    "lib/fonts/mathjax_main-regular.woff",
-    "lib/fonts/mathjax_main-bold.woff",
-    "lib/fonts/mathjax_math-italic.woff",
-    "lib/fonts/mathjax_main-italic.woff",
-    "lib/fonts/mathjax_math-bolditalic.woff",
-    "lib/fonts/mathjax_size1-regular.woff",
-    "lib/fonts/mathjax_size2-regular.woff",
-    "lib/fonts/mathjax_size3-regular.woff",
-    "lib/fonts/mathjax_size4-regular.woff",
-    "lib/fonts/mathjax_ams-regular.woff",
-    "lib/fonts/mathjax_calligraphic-regular.woff",
-    "lib/fonts/mathjax_calligraphic-bold.woff",
-    "lib/fonts/mathjax_fraktur-regular.woff",
-    "lib/fonts/mathjax_fraktur-bold.woff",
-    "lib/fonts/mathjax_sansserif-regular.woff",
-    "lib/fonts/mathjax_sansserif-bold.woff",
-    "lib/fonts/mathjax_sansserif-italic.woff",
-    "lib/fonts/mathjax_script-regular.woff",
-    "lib/fonts/mathjax_typewriter-regular.woff",
-    "lib/fonts/mathjax_vector-regular.woff",
-    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -326,8 +274,8 @@
       "dependencies": []
     },
     "01_PCs/Singwin Mistwalker-folder/Crafting.md": {
-      "modifiedTime": 1736864431631,
-      "sourceSize": 632,
+      "modifiedTime": 1737406564334,
+      "sourceSize": 16612,
       "exportedPath": "01_pcs/singwin-mistwalker-folder/crafting.html",
       "dependencies": []
     },
@@ -383,8 +331,8 @@
       "dependencies": []
     },
     "01_PCs/Singwin Mistwalker-folder/Warlock.md": {
-      "modifiedTime": 1736864431631,
-      "sourceSize": 14232,
+      "modifiedTime": 1737406564334,
+      "sourceSize": 14227,
       "exportedPath": "01_pcs/singwin-mistwalker-folder/warlock.html",
       "dependencies": []
     },
@@ -886,10 +834,12 @@
       "dependencies": []
     },
     "94_Character_Creation/Classes and Subclasses/Druid.md": {
-      "modifiedTime": 1736879634348,
-      "sourceSize": 4292,
+      "modifiedTime": 1737406564334,
+      "sourceSize": 7209,
       "exportedPath": "94_character_creation/classes-and-subclasses/druid.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/druid-unbroken-circle.png"
+      ]
     },
     "lib/media/pseudogriffon_familiar_1.jpeg": {
       "modifiedTime": 1737319214120,
@@ -952,7 +902,7 @@
       "dependencies": []
     },
     "lib/media/splicer-augments-table.png": {
-      "modifiedTime": 1737318856026,
+      "modifiedTime": 1737406564334,
       "sourceSize": 337547,
       "exportedPath": "lib/media/splicer-augments-table.png",
       "dependencies": []
@@ -970,169 +920,169 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1737320062938,
-      "sourceSize": 72308,
+      "modifiedTime": 1737406564334,
+      "sourceSize": 60391,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1737320062938,
-      "sourceSize": 13708,
+      "modifiedTime": 1737406564334,
+      "sourceSize": 13924,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 131018,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 370,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -1180,20 +1130,25 @@
       "dependencies": []
     },
     "94_Character_Creation/Classes and Subclasses/Barbarian.md": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 11496,
+      "modifiedTime": 1737406564334,
+      "sourceSize": 13925,
       "exportedPath": "94_character_creation/classes-and-subclasses/barbarian.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/barbarian.png",
+        "lib/media/barbarian-glacier.png"
+      ]
     },
     "94_Character_Creation/Classes and Subclasses/Bard.md": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 4291,
+      "modifiedTime": 1737406564334,
+      "sourceSize": 7626,
       "exportedPath": "94_character_creation/classes-and-subclasses/bard.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/bard-college-of-dance.png"
+      ]
     },
     "94_Character_Creation/Classes and Subclasses/Bender.md": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 39152,
+      "modifiedTime": 1737406564334,
+      "sourceSize": 39233,
       "exportedPath": "94_character_creation/classes-and-subclasses/bender.html",
       "dependencies": [
         "lib/media/bender.png",
@@ -1209,44 +1164,54 @@
       "dependencies": []
     },
     "94_Character_Creation/Classes and Subclasses/Classes and Subclasses.md": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 143,
+      "modifiedTime": 1737406564334,
+      "sourceSize": 144,
       "exportedPath": "94_character_creation/classes-and-subclasses/classes-and-subclasses.html",
       "dependencies": []
     },
     "94_Character_Creation/Classes and Subclasses/Cleric.md": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 3457,
+      "modifiedTime": 1737406564334,
+      "sourceSize": 7887,
       "exportedPath": "94_character_creation/classes-and-subclasses/cleric.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/cleric-astral.png"
+      ]
     },
     "94_Character_Creation/Classes and Subclasses/Fighter.md": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 2515,
+      "modifiedTime": 1737406564334,
+      "sourceSize": 7503,
       "exportedPath": "94_character_creation/classes-and-subclasses/fighter.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/fighter-couatl-herald.png"
+      ]
     },
     "94_Character_Creation/Classes and Subclasses/Monk.md": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 2512,
+      "modifiedTime": 1737406564334,
+      "sourceSize": 6639,
       "exportedPath": "94_character_creation/classes-and-subclasses/monk.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/monk-way-of-the-celestial.png"
+      ]
     },
     "94_Character_Creation/Classes and Subclasses/Rogue.md": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 2513,
+      "modifiedTime": 1737406564334,
+      "sourceSize": 7250,
       "exportedPath": "94_character_creation/classes-and-subclasses/rogue.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/rogue-runetagger.png"
+      ]
     },
     "94_Character_Creation/Classes and Subclasses/Sorcerer.md": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 4295,
+      "modifiedTime": 1737406564334,
+      "sourceSize": 7688,
       "exportedPath": "94_character_creation/classes-and-subclasses/sorcerer.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/sorcerer-frost-magic.png"
+      ]
     },
     "94_Character_Creation/Classes and Subclasses/Tamer.md": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 62883,
+      "modifiedTime": 1737406564334,
+      "sourceSize": 63019,
       "exportedPath": "94_character_creation/classes-and-subclasses/tamer.html",
       "dependencies": [
         "lib/media/tamer.png",
@@ -1258,16 +1223,20 @@
       ]
     },
     "94_Character_Creation/Classes and Subclasses/Warlock.md": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 4293,
+      "modifiedTime": 1737406564334,
+      "sourceSize": 19209,
       "exportedPath": "94_character_creation/classes-and-subclasses/warlock.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/warlock-the-astral-griffon.png"
+      ]
     },
     "94_Character_Creation/Classes and Subclasses/Wizard.md": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 4293,
+      "modifiedTime": 1737406564334,
+      "sourceSize": 9636,
       "exportedPath": "94_character_creation/classes-and-subclasses/wizard.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/wizard-material-magic.png"
+      ]
     },
     "94_Character_Creation/Races/Cappy.md": {
       "modifiedTime": 1737318856026,
@@ -1276,10 +1245,12 @@
       "dependencies": []
     },
     "94_Character_Creation/Races/Feathren.md": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 7664,
+      "modifiedTime": 1737406564334,
+      "sourceSize": 7759,
       "exportedPath": "94_character_creation/races/feathren.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/feathren.png"
+      ]
     },
     "94_Character_Creation/Races/Races.md": {
       "modifiedTime": 1737318856026,
@@ -1288,63 +1259,9 @@
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1737320062938,
+      "modifiedTime": 1737406564334,
       "sourceSize": 2104,
       "exportedPath": "lib/styles/other-plugins.css",
-      "dependencies": []
-    },
-    "00_attachments/ClassImages/Bender.png": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 1248890,
-      "exportedPath": "00_attachments/classimages/bender.png",
-      "dependencies": []
-    },
-    "00_attachments/ClassImages/Bender - Ferocity.png": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 801459,
-      "exportedPath": "00_attachments/classimages/bender-ferocity.png",
-      "dependencies": []
-    },
-    "00_attachments/ClassImages/Bender - Fortification.png": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 502254,
-      "exportedPath": "00_attachments/classimages/bender-fortification.png",
-      "dependencies": []
-    },
-    "00_attachments/ClassImages/Bender - Invigoration.png": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 697598,
-      "exportedPath": "00_attachments/classimages/bender-invigoration.png",
-      "dependencies": []
-    },
-    "00_attachments/ClassImages/Tamer.png": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 815359,
-      "exportedPath": "00_attachments/classimages/tamer.png",
-      "dependencies": []
-    },
-    "00_attachments/ClassImages/Tamer - Infuser.png": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 563190,
-      "exportedPath": "00_attachments/classimages/tamer-infuser.png",
-      "dependencies": []
-    },
-    "00_attachments/ClassImages/Tamer - Leader.png": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 586461,
-      "exportedPath": "00_attachments/classimages/tamer-leader.png",
-      "dependencies": []
-    },
-    "00_attachments/ClassImages/Tamer - Necromancer.png": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 693699,
-      "exportedPath": "00_attachments/classimages/tamer-necromancer.png",
-      "dependencies": []
-    },
-    "00_attachments/ClassImages/Tamer - Splicer.png": {
-      "modifiedTime": 1737318856026,
-      "sourceSize": 701073,
-      "exportedPath": "00_attachments/classimages/tamer-splicer.png",
       "dependencies": []
     },
     "94_Character_Creation/Spells.md": {
@@ -1354,55 +1271,55 @@
       "dependencies": []
     },
     "lib/media/bender.png": {
-      "modifiedTime": 1737318856026,
+      "modifiedTime": 1737406564334,
       "sourceSize": 1248890,
       "exportedPath": "lib/media/bender.png",
       "dependencies": []
     },
     "lib/media/bender-ferocity.png": {
-      "modifiedTime": 1737318856026,
+      "modifiedTime": 1737406564334,
       "sourceSize": 801459,
       "exportedPath": "lib/media/bender-ferocity.png",
       "dependencies": []
     },
     "lib/media/bender-fortification.png": {
-      "modifiedTime": 1737318856026,
+      "modifiedTime": 1737406564334,
       "sourceSize": 502254,
       "exportedPath": "lib/media/bender-fortification.png",
       "dependencies": []
     },
     "lib/media/bender-invigoration.png": {
-      "modifiedTime": 1737318856026,
+      "modifiedTime": 1737406564334,
       "sourceSize": 697598,
       "exportedPath": "lib/media/bender-invigoration.png",
       "dependencies": []
     },
     "lib/media/tamer.png": {
-      "modifiedTime": 1737318856026,
+      "modifiedTime": 1737406564334,
       "sourceSize": 815359,
       "exportedPath": "lib/media/tamer.png",
       "dependencies": []
     },
     "lib/media/tamer-leader.png": {
-      "modifiedTime": 1737318856026,
+      "modifiedTime": 1737406564334,
       "sourceSize": 586461,
       "exportedPath": "lib/media/tamer-leader.png",
       "dependencies": []
     },
     "lib/media/tamer-infuser.png": {
-      "modifiedTime": 1737318856026,
+      "modifiedTime": 1737406564334,
       "sourceSize": 563190,
       "exportedPath": "lib/media/tamer-infuser.png",
       "dependencies": []
     },
     "lib/media/tamer-necromancer.png": {
-      "modifiedTime": 1737318856026,
+      "modifiedTime": 1737406564334,
       "sourceSize": 693699,
       "exportedPath": "lib/media/tamer-necromancer.png",
       "dependencies": []
     },
     "lib/media/tamer-splicer.png": {
-      "modifiedTime": 1737318856026,
+      "modifiedTime": 1737406564334,
       "sourceSize": 701073,
       "exportedPath": "lib/media/tamer-splicer.png",
       "dependencies": []
@@ -1539,102 +1456,6 @@
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
-    "00_attachments/ClassImages/Splicer Augments Table.png": {
-      "modifiedTime": 1737319214120,
-      "sourceSize": 337547,
-      "exportedPath": "00_attachments/classimages/splicer-augments-table.png",
-      "dependencies": []
-    },
-    "00_attachments/Items/Badtea-effects.jpeg": {
-      "modifiedTime": 1737319214120,
-      "sourceSize": 131422,
-      "exportedPath": "00_attachments/items/badtea-effects.jpeg",
-      "dependencies": []
-    },
-    "00_attachments/Items/Dragonscale Whetstone_1.jpeg": {
-      "modifiedTime": 1737319214120,
-      "sourceSize": 34598,
-      "exportedPath": "00_attachments/items/dragonscale-whetstone_1.jpeg",
-      "dependencies": []
-    },
-    "00_attachments/Items/Dragonscale Whetstone_2.jpeg": {
-      "modifiedTime": 1737319214120,
-      "sourceSize": 151804,
-      "exportedPath": "00_attachments/items/dragonscale-whetstone_2.jpeg",
-      "dependencies": []
-    },
-    "00_attachments/Items/Dragonscale Whetstone_3.jpeg": {
-      "modifiedTime": 1737319214120,
-      "sourceSize": 97807,
-      "exportedPath": "00_attachments/items/dragonscale-whetstone_3.jpeg",
-      "dependencies": []
-    },
-    "00_attachments/Items/Enchantment Breaker.jpeg": {
-      "modifiedTime": 1737319214120,
-      "sourceSize": 310548,
-      "exportedPath": "00_attachments/items/enchantment-breaker.jpeg",
-      "dependencies": []
-    },
-    "00_attachments/Items/Gauntlets of Eldritch Ferocity_1.jpeg": {
-      "modifiedTime": 1737319214120,
-      "sourceSize": 105300,
-      "exportedPath": "00_attachments/items/gauntlets-of-eldritch-ferocity_1.jpeg",
-      "dependencies": []
-    },
-    "00_attachments/Items/Gauntlets of Eldritch Ferocity_2.jpeg": {
-      "modifiedTime": 1737319214120,
-      "sourceSize": 110181,
-      "exportedPath": "00_attachments/items/gauntlets-of-eldritch-ferocity_2.jpeg",
-      "dependencies": []
-    },
-    "00_attachments/Items/Illusionist's Bracers.png": {
-      "modifiedTime": 1737319214120,
-      "sourceSize": 26508,
-      "exportedPath": "00_attachments/items/illusionist's-bracers.png",
-      "dependencies": []
-    },
-    "00_attachments/misc/Redscales Big Pile fight.jpg": {
-      "modifiedTime": 1737319214120,
-      "sourceSize": 3342801,
-      "exportedPath": "00_attachments/misc/redscales-big-pile-fight.jpg",
-      "dependencies": []
-    },
-    "00_attachments/Monsters/BlackScaryWolfThatGlows.jpeg": {
-      "modifiedTime": 1737319214120,
-      "sourceSize": 155940,
-      "exportedPath": "00_attachments/monsters/blackscarywolfthatglows.jpeg",
-      "dependencies": []
-    },
-    "00_attachments/Monsters/Pseudogriffon_familiar_1.jpeg": {
-      "modifiedTime": 1737319214120,
-      "sourceSize": 135328,
-      "exportedPath": "00_attachments/monsters/pseudogriffon_familiar_1.jpeg",
-      "dependencies": []
-    },
-    "00_attachments/Monsters/Pseudogriffon_familiar_2.jpeg": {
-      "modifiedTime": 1737319214120,
-      "sourceSize": 736447,
-      "exportedPath": "00_attachments/monsters/pseudogriffon_familiar_2.jpeg",
-      "dependencies": []
-    },
-    "00_attachments/Monsters/Pseudogriffon_familiar_2_cropped.jpeg": {
-      "modifiedTime": 1737319214120,
-      "sourceSize": 79962,
-      "exportedPath": "00_attachments/monsters/pseudogriffon_familiar_2_cropped.jpeg",
-      "dependencies": []
-    },
-    "00_attachments/Monsters/Rakitten Monster Info.png": {
-      "modifiedTime": 1737319214120,
-      "sourceSize": 241258,
-      "exportedPath": "00_attachments/monsters/rakitten-monster-info.png",
-      "dependencies": []
-    },
-    "00_attachments/Monsters/Sunsnacker Monster Info.png": {
-      "modifiedTime": 1737319214120,
-      "sourceSize": 219443,
-      "exportedPath": "00_attachments/monsters/sunsnacker-monster-info.png",
-      "dependencies": []
-    },
     "Session Summary.md": {
       "modifiedTime": 1737319214120,
       "sourceSize": 785,
@@ -1645,6 +1466,112 @@
       "modifiedTime": 1737319214120,
       "sourceSize": 3342801,
       "exportedPath": "lib/media/redscales-big-pile-fight.jpg",
+      "dependencies": []
+    },
+    "94_Character_Creation/Classes and Subclasses/Paladin.md": {
+      "modifiedTime": 1737406564334,
+      "sourceSize": 9139,
+      "exportedPath": "94_character_creation/classes-and-subclasses/paladin.html",
+      "dependencies": [
+        "lib/media/paladin-oath-of-the-hearth.png"
+      ]
+    },
+    "94_Character_Creation/Classes and Subclasses/Ranger.md": {
+      "modifiedTime": 1737406564334,
+      "sourceSize": 7023,
+      "exportedPath": "94_character_creation/classes-and-subclasses/ranger.html",
+      "dependencies": [
+        "lib/media/ranger-winter-trapper.png"
+      ]
+    },
+    "94_Character_Creation/Classes and Subclasses/Untitled.md": {
+      "modifiedTime": 1737406564334,
+      "sourceSize": 0,
+      "exportedPath": "94_character_creation/classes-and-subclasses/untitled.html",
+      "dependencies": []
+    },
+    "lib/media/barbarian.png": {
+      "modifiedTime": 1737406564334,
+      "sourceSize": 366265,
+      "exportedPath": "lib/media/barbarian.png",
+      "dependencies": []
+    },
+    "lib/media/barbarian-glacier.png": {
+      "modifiedTime": 1737406564334,
+      "sourceSize": 478227,
+      "exportedPath": "lib/media/barbarian-glacier.png",
+      "dependencies": []
+    },
+    "lib/media/bard-college-of-dance.png": {
+      "modifiedTime": 1737406564334,
+      "sourceSize": 310780,
+      "exportedPath": "lib/media/bard-college-of-dance.png",
+      "dependencies": []
+    },
+    "lib/media/cleric-astral.png": {
+      "modifiedTime": 1737406564334,
+      "sourceSize": 497621,
+      "exportedPath": "lib/media/cleric-astral.png",
+      "dependencies": []
+    },
+    "lib/media/druid-unbroken-circle.png": {
+      "modifiedTime": 1737406564334,
+      "sourceSize": 581726,
+      "exportedPath": "lib/media/druid-unbroken-circle.png",
+      "dependencies": []
+    },
+    "lib/media/fighter-couatl-herald.png": {
+      "modifiedTime": 1737406564334,
+      "sourceSize": 334474,
+      "exportedPath": "lib/media/fighter-couatl-herald.png",
+      "dependencies": []
+    },
+    "lib/media/monk-way-of-the-celestial.png": {
+      "modifiedTime": 1737406564334,
+      "sourceSize": 341996,
+      "exportedPath": "lib/media/monk-way-of-the-celestial.png",
+      "dependencies": []
+    },
+    "lib/media/paladin-oath-of-the-hearth.png": {
+      "modifiedTime": 1737406564334,
+      "sourceSize": 536204,
+      "exportedPath": "lib/media/paladin-oath-of-the-hearth.png",
+      "dependencies": []
+    },
+    "lib/media/ranger-winter-trapper.png": {
+      "modifiedTime": 1737406564334,
+      "sourceSize": 392307,
+      "exportedPath": "lib/media/ranger-winter-trapper.png",
+      "dependencies": []
+    },
+    "lib/media/rogue-runetagger.png": {
+      "modifiedTime": 1737406564334,
+      "sourceSize": 361804,
+      "exportedPath": "lib/media/rogue-runetagger.png",
+      "dependencies": []
+    },
+    "lib/media/sorcerer-frost-magic.png": {
+      "modifiedTime": 1737406564334,
+      "sourceSize": 447651,
+      "exportedPath": "lib/media/sorcerer-frost-magic.png",
+      "dependencies": []
+    },
+    "lib/media/warlock-the-astral-griffon.png": {
+      "modifiedTime": 1737406564334,
+      "sourceSize": 267130,
+      "exportedPath": "lib/media/warlock-the-astral-griffon.png",
+      "dependencies": []
+    },
+    "lib/media/wizard-material-magic.png": {
+      "modifiedTime": 1737406564334,
+      "sourceSize": 367032,
+      "exportedPath": "lib/media/wizard-material-magic.png",
+      "dependencies": []
+    },
+    "lib/media/feathren.png": {
+      "modifiedTime": 1737406564334,
+      "sourceSize": 462813,
+      "exportedPath": "lib/media/feathren.png",
       "dependencies": []
     }
   }
