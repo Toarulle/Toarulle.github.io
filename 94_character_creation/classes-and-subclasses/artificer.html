@@ -1,0 +1,455 @@
+<!DOCTYPE html> <html lang="en"><head>
+<title>Artificer</title>
+<base href="../..">
+<meta name="pathname" content="94_character_creation/classes-and-subclasses/artificer.html">
+<meta name="description" content="Thalbrine - Artificer">
+<meta property="og:title" content="Artificer">
+<meta property="og:description" content="Thalbrine - Artificer">
+<meta property="og:type" content="website">
+<meta property="og:url" content="94_character_creation/classes-and-subclasses/artificer.html">
+<meta property="og:image" content="undefined">
+<meta property="og:site_name" content="Thalbrine"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0"><meta charset="UTF-8"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="site-lib/rss.xml"><script async="" id="webpage-script" src="site-lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-wasm-script" src="site-lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="site-lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="site-lib/media/favicon.png"><link rel="stylesheet" href="site-lib/styles/obsidian.css"><link rel="preload" href="site-lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/other-plugins.css"></noscript><link rel="preload" href="site-lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="site-lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/supported-plugins.css"></noscript><link rel="preload" href="site-lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/main-styles.css"></noscript><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-vertical-spacing:1.3em;--sidebar-margin:12px}:root{background-color:#202124}.sidebar{height:100%;font-size:14px;z-index:10;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));position:relative;overflow:hidden;overflow:clip;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}#left-sidebar{left:0}#right-sidebar{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}.sidebar.floating{position:absolute}.sidebar .leaf-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .leaf-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}#left-sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}#right-sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar #left-sidebar-content,.sidebar #right-sidebar-content{contain:none!important;container-type:normal!important;animation:none!important}.sidebar:has(.leaf-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}#left-sidebar .sidebar-topbar{left:0;flex-direction:row}#right-sidebar .sidebar-topbar{right:0;flex-direction:row-reverse}#left-sidebar .topbar-content{margin-right:calc(2.3em + var(--sidebar-margin));flex-direction:row}#right-sidebar .topbar-content{margin-left:calc(2.3em + var(--sidebar-margin));flex-direction:row-reverse}.topbar-content{overflow:hidden visible;overflow:clip visible;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:2px!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}#left-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}#right-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.feature-title{margin-left:4px;text-transform:uppercase;letter-spacing:.06em;margin-top:.75em;margin-bottom:.75em}.feature-header{display:flex;align-items:center;padding-top:0;font-size:1em;padding-left:0}body.floating-sidebars .sidebar{position:absolute}body{transition:background-color var(--color-fade-speed) ease-in-out}#layout{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}#center-content{flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0!important;transition:opacity .2s ease-in-out;pointer-events:none}#center-content>.obsidian-document{padding-left:2em;padding-right:1em;margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}body #center-content>.obsidian-document>.markdown-preview-sizer{padding-bottom:80vh;width:100%;max-width:var(--line-width);flex-basis:var(--line-width);transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document>div{width:100%!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document:not([data-type=markdown]).embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}#center-content>.obsidian-document:not([data-type=markdown]).embed>*{max-width:100%;max-height:100%;object-fit:contain}:not(h1,h2,h3,h4,h5,h6):has(> :is(.math:not(.math-inline),table)){overflow-x:auto!important}#center-content>.obsidian-document:not([data-type=markdown]){overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.obsidian-document[data-type=attachment]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;width:100%}.obsidian-document[data-type=attachment]>*{outline:0;border:none;box-shadow:none}.obsidian-document[data-type=attachment] :is(img){max-width:90%;max-height:90%;object-fit:contain}.obsidian-document[data-type=attachment]>:is(audio){width:100%;max-width:min(90%,var(--line-width))}.obsidian-document[data-type=attachment]>:is(embed,iframe,video){width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}.canvas-wrapper>:is(.header,.footer){z-index:100;position:absolute;display:flex;justify-content:center;flex-direction:column;width:100%;align-items:center}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){let e=document.querySelectorAll("link[itemprop='include']");for(const t of e){let e=t.getAttribute("href");try{let o="";if(e.startsWith("https:")||e.startsWith("http:")||"file:"!=window.location.protocol){const l=await fetch(e);if(!l.ok){console.log("Could not include file: "+e),t?.remove();continue}o=await l.text()}else{const t=document.getElementById(btoa(encodeURI(e)));if(t){const e=JSON.parse(decodeURI(atob(t.getAttribute("value")??"")));o=e?.data??""}}let l=document.createRange().createContextualFragment(o),n=Array.from(l.children);for(let e of n)e?.classList?.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e?.classList?.remove("hide")}),10);t.before(l),t.remove(),console.log("Included text: "+o),console.log("Included file: "+e)}catch(o){t?.remove(),console.log("Could not include file: "+e,o);continue}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script")));!function e(l){let n=o[l],c=l+1;n?(n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(c),l<o.length&&n.addEventListener("load",(()=>e(c)))):l<o.length?e(c):t()}(0)}</script></head><body class="publish css-settings-manager show-inline-title show-ribbon is-focused"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="parsed-feature-container" style="display: contents;"><link itemprop="include" href="site-lib/html/custom-head-content-content.html"></div><div id="layout"><div id="left-content" class="leaf" style="--sidebar-width: var(--sidebar-width-left);"><div id="left-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><div id="search-container"><div id="search-wrapper"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div aria-label="Clear search" id="search-clear-button"></div></div></div></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="left-sidebar-content" class="leaf-content"><link itemprop="include" href="site-lib/html/file-tree-content.html"></div></div><script defer="">let ls = document.querySelector("#left-sidebar"); ls.classList.toggle("is-collapsed", window.innerWidth < 768); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div></div><div id="center-content" class="leaf"><div class="obsidian-document markdown-preview-view markdown-rendered node-insert-event is-readable-line-width allow-fold-headings allow-fold-lists show-indentation-guide show-properties" data-type="markdown"><style id="MJX-CHTML-styles"></style><pre class="frontmatter language-yaml" tabindex="0" style="display: none;"><code class="language-yaml is-loaded"><span class="token key atrule">sourcebook</span><span class="token punctuation">:</span>
+<span class="token key atrule">tags</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> class
+<span class="token key atrule">done</span><span class="token punctuation">:</span> <span class="token boolean important">false</span></code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre><div class="markdown-preview-sizer markdown-preview-section"><div class="header"><h1 class="page-title heading inline-title" id="Artificer_0">Artificer</h1><div class="data-bar"></div></div><div class="markdown-preview-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;"></div><div class="el-h1"><h1 data-heading="Artificer Info" dir="auto" class="heading" id="Artificer_Info_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Artificer Info</h1></div><div class="el-p"><p dir="auto"><strong><em>Masters of invention, artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in the next few sections.</em></strong></p></div><div class="el-p"><p dir="auto"><strong><em>Artificers use a variety of tools to channel their arcane power. To cast a spell, an artificer might use alchemist's supplies to create a potent elixir, calligrapher's supplies to inscribe a sigil of power, or tinker's tools to craft a temporary charm. The magic of artificers is tied to their tools and their talents, and few other characters can produce the right tool for a job as well as an artificer</em></strong></p></div><div class="el-h1"><h1 data-heading="Artificer" dir="auto" class="heading" id="Artificer_1"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Artificer</h1></div><div class="el-h2"><h2 data-heading="Features" dir="auto" class="heading" id="Features_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Features</h2></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Level</th>
+<th dir="ltr">Proficiency Bonus</th>
+<th dir="ltr">Features</th>
+<th dir="ltr">Infusions Known</th>
+<th dir="ltr">Infused Items</th>
+<th dir="ltr">Cantrips Known</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">1st</td>
+<td dir="auto">+2</td>
+<td dir="ltr">Magical Tinkering, Spellcasting</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">2</td>
+</tr>
+<tr>
+<td dir="ltr">2nd</td>
+<td dir="auto">+2</td>
+<td dir="ltr">Infuse Item</td>
+<td dir="auto">4</td>
+<td dir="auto">2</td>
+<td dir="auto">2</td>
+</tr>
+<tr>
+<td dir="ltr">3rd</td>
+<td dir="auto">+2</td>
+<td dir="ltr">Artificer Specialist, The Right Tool for the Job</td>
+<td dir="auto">4</td>
+<td dir="auto">2</td>
+<td dir="auto">2</td>
+</tr>
+<tr>
+<td dir="ltr">4th</td>
+<td dir="auto">+2</td>
+<td dir="ltr">Ability Score Improvement</td>
+<td dir="auto">4</td>
+<td dir="auto">2</td>
+<td dir="auto">2</td>
+</tr>
+<tr>
+<td dir="ltr">5th</td>
+<td dir="auto">+3</td>
+<td dir="ltr">Artificer Specialist feature</td>
+<td dir="auto">4</td>
+<td dir="auto">2</td>
+<td dir="auto">2</td>
+</tr>
+<tr>
+<td dir="ltr">6th</td>
+<td dir="auto">+3</td>
+<td dir="ltr">Tool Expertise</td>
+<td dir="auto">6</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+</tr>
+<tr>
+<td dir="ltr">7th</td>
+<td dir="auto">+3</td>
+<td dir="ltr">Flash of Genius</td>
+<td dir="auto">6</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+</tr>
+<tr>
+<td dir="ltr">8th</td>
+<td dir="auto">+3</td>
+<td dir="ltr">Ability Score Improvement</td>
+<td dir="auto">6</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+</tr>
+<tr>
+<td dir="ltr">9th</td>
+<td dir="auto">+4</td>
+<td dir="ltr">Artificer Specialist feature</td>
+<td dir="auto">6</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+</tr>
+<tr>
+<td dir="ltr">10th</td>
+<td dir="auto">+4</td>
+<td dir="ltr">Magic Item Adept</td>
+<td dir="auto">8</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+</tr>
+<tr>
+<td dir="ltr">11th</td>
+<td dir="auto">+4</td>
+<td dir="ltr">Spell-Storing Item</td>
+<td dir="auto">8</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+</tr>
+<tr>
+<td dir="ltr">12th</td>
+<td dir="auto">+4</td>
+<td dir="ltr">Ability Score Improvement</td>
+<td dir="auto">8</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+</tr>
+<tr>
+<td dir="ltr">13th</td>
+<td dir="auto">+5</td>
+<td dir="auto">-</td>
+<td dir="auto">8</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+</tr>
+<tr>
+<td dir="ltr">14th</td>
+<td dir="auto">+5</td>
+<td dir="ltr">Magic Item Savant</td>
+<td dir="auto">10</td>
+<td dir="auto">5</td>
+<td dir="auto">4</td>
+</tr>
+<tr>
+<td dir="ltr">15th</td>
+<td dir="auto">+5</td>
+<td dir="ltr">Artificer Specialist feature</td>
+<td dir="auto">10</td>
+<td dir="auto">5</td>
+<td dir="auto">4</td>
+</tr>
+<tr>
+<td dir="ltr">16th</td>
+<td dir="auto">+5</td>
+<td dir="ltr">Ability Score Improvement</td>
+<td dir="auto">10</td>
+<td dir="auto">5</td>
+<td dir="auto">4</td>
+</tr>
+<tr>
+<td dir="ltr">17th</td>
+<td dir="auto">+6</td>
+<td dir="auto">-</td>
+<td dir="auto">10</td>
+<td dir="auto">5</td>
+<td dir="auto">4</td>
+</tr>
+<tr>
+<td dir="ltr">18th</td>
+<td dir="auto">+6</td>
+<td dir="ltr">Magic Item Master</td>
+<td dir="auto">12</td>
+<td dir="auto">6</td>
+<td dir="auto">4</td>
+</tr>
+<tr>
+<td dir="ltr">19th</td>
+<td dir="auto">+6</td>
+<td dir="ltr">Ability Score Improvement</td>
+<td dir="auto">12</td>
+<td dir="auto">6</td>
+<td dir="auto">4</td>
+</tr>
+<tr>
+<td dir="ltr">20th</td>
+<td dir="auto">+6</td>
+<td dir="ltr">Soul of Artifice</td>
+<td dir="auto">12</td>
+<td dir="auto">6</td>
+<td dir="auto">4</td>
+</tr>
+</tbody>
+</table></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr"><strong>Level</strong></th>
+<th dir="ltr">1st</th>
+<th dir="ltr">2nd</th>
+<th dir="ltr">3rd</th>
+<th dir="ltr">4th</th>
+<th dir="ltr">5th</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">1st</td>
+<td dir="auto">2</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">2nd</td>
+<td dir="auto">2</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">3rd</td>
+<td dir="auto">3</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">4th</td>
+<td dir="auto">3</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">5th</td>
+<td dir="auto">4</td>
+<td dir="auto">2</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">6th</td>
+<td dir="auto">4</td>
+<td dir="auto">2</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">7th</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">8th</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">9th</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">10th</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">11th</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">12th</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">13th</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">14th</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">15th</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">16th</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">17th</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">1</td>
+</tr>
+<tr>
+<td dir="ltr">18th</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">1</td>
+</tr>
+<tr>
+<td dir="ltr">19th</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+</tr>
+<tr>
+<td dir="ltr">20th</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+</tr>
+</tbody>
+</table></div><div class="el-h3"><h3 data-heading="Hit Points" dir="auto" class="heading" id="Hit_Points_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Hit Points</h3></div><div class="el-p"><p dir="auto"><strong>Hit Dice:</strong>&nbsp;1d8 per artificer level<br>
+<strong>Hit Points at 1st Level:</strong>&nbsp;8 + your Constitution modifier<br>
+<strong>Hit Points at Higher Levels:</strong>&nbsp;1d8 (or 5) + your Constitution modifier per artificer level after 1st</p></div><div class="el-h3"><h3 data-heading="Proficiencies" dir="auto" class="heading" id="Proficiencies_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Proficiencies</h3></div><div class="el-p"><p dir="auto"><strong>Armor:</strong>&nbsp;Light armor, medium armor, shields<br>
+<strong>Weapons:</strong>&nbsp;Simple weapons<br>
+<strong>Tools:</strong>&nbsp;Thieves’ tools, tinker’s tools, one type of artisan’s tools of your choice<br>
+<strong>Saving Throws:</strong>&nbsp;Constitution, Intelligence<br>
+<strong>Skills:</strong>&nbsp;Choose two from Arcana, History, Investigation, Medicine, Nature, Perception, Sleight of Hand</p></div><div class="el-h3"><h3 data-heading="Equipment" dir="auto" class="heading" id="Equipment_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Equipment</h3></div><div class="el-p"><p dir="auto">You start with the following equipment, in addition to the equipment granted by your background:</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>any two simple weapons</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>a light crossbow and 20 bolts</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>(a) studded leather armor or (b) scale mail</li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span>thieves’ tools and a dungeoneer’s pack</li>
+</ul></div><div class="el-p"><p dir="auto">Alternatively, you may start with 5d4x10 starting gold</p></div><div class="el-h3"><h3 data-heading="Optional Rule: Firearm Proficiency" dir="auto" class="heading" id="Optional_Rule_Firearm_Proficiency_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Optional Rule: Firearm Proficiency</h3></div><div class="el-p"><p dir="auto">The secrets of gunpowder weapons have been discovered in various corners of the D&amp;D multiverse. If your Dungeon Master uses the rules on firearms in the&nbsp;<em>Dungeon Master's Guide</em>&nbsp;and your artificer has been exposed to the operation of such weapons, your artificer is proficient with them.</p></div><div class="el-h3"><h3 data-heading="Magical Tinkering" dir="auto" class="heading" id="Magical_Tinkering_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Magical Tinkering</h3></div><div class="el-p"><p dir="auto"><em>1st-level Artificer feature</em><br>
+At 1st level, you've learned how to invest a spark of magic into mundane objects. To use this ability, you must have thieves' tools or artisan's tools in hand. You then touch a Tiny nonmagical object as an action and give it one of the following magical properties of your choice:</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>The object sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>Whenever tapped by a creature, the object emits a recorded message that can be heard up to 10 feet away. You utter the message when you bestow this property on the object, and the recording can be no more than 6 seconds long.</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>The object continuously emits your choice of an odor or a nonverbal sound (wind, waves, chirping, or the like). The chosen phenomenon is perceivable up to 10 feet away.</li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span>A static visual effect appears on one of the object's surfaces. This effect can be a picture, up to 25 words of text, lines and shapes, or a mixture of these elements, as you like.</li>
+</ul></div><div class="el-p"><p dir="auto">The chosen property lasts indefinitely. As an action, you can touch the object and end the property early.</p></div><div class="el-p"><p dir="auto">You can bestow magic on multiple objects, touching one object each time you use this feature, though a single object can only bear one property at a time. The maximum number of objects you can affect with this feature at one time is equal to your Intelligence modifier (minimum of one object). If you try to exceed your maximum, the oldest property immediately ends, and then the new property applies.</p></div><div class="el-h3"><h3 data-heading="Spellcasting" dir="auto" class="heading" id="Spellcasting_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Spellcasting</h3></div><div class="el-p"><p dir="auto">You've studied the workings of magic and how to cast spells, channeling the magic through objects. To observers, you don't appear to be casting spells in a conventional way; you appear to produce wonders from mundane items and outlandish inventions.</p></div><div class="el-h4"><h4 data-heading="Tools Required" dir="auto" class="heading" id="Tools_Required_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Tools Required</h4></div><div class="el-p"><p dir="auto">You produce your artificer spell effects through your tools. You must have a spellcasting focus - specifically thieves' tools or some kind of artisan's tool - in hand when you cast any spell with this Spellcasting feature (meaning the spell has an "M" component when you cast it). You must be proficient with the tool to use it in this way. See the equipment chapter in the Player's Handbook for descriptions of these tools.</p></div><div class="el-p"><p dir="auto">After you gain the Infuse Item feature at 2nd level, you can also use any item bearing one of your infusions as a spellcasting focus.</p></div><div class="el-h4"><h4 data-heading="Cantrips (0-Level Spells)" dir="auto" class="heading" id="Cantrips_(0-Level_Spells)_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Cantrips (0-Level Spells)</h4></div><div class="el-p"><p dir="auto"><em>1st-level Artificer feature</em><br>
+At 1st level, you know two cantrips of your choice from the&nbsp;<a data-tooltip-position="top" aria-label="http://dnd5e.wikidot.com/spells:artificer" rel="noopener nofollow" class="external-link is-unresolved" href="http://dnd5e.wikidot.com/spells:artificer" target="_self">artificer spell list</a>. At higher levels, you learn additional artificer cantrips of your choice, as shown in the Cantrips Known column of the Artificer table.</p></div><div class="el-p"><p dir="auto">When you gain a level in this class, you can replace one of the artificer cantrips you know with another cantrip from the&nbsp;<a data-tooltip-position="top" aria-label="http://dnd5e.wikidot.com/spells:artificer" rel="noopener nofollow" class="external-link is-unresolved" href="http://dnd5e.wikidot.com/spells:artificer" target="_self">artificer spell list</a>.</p></div><div class="el-h4"><h4 data-heading="Preparing and Casting Spells" dir="auto" class="heading" id="Preparing_and_Casting_Spells_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Preparing and Casting Spells</h4></div><div class="el-p"><p dir="auto">The Artificer table shows how many spell slots you have to cast your artificer spells. To cast one of your artificer spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p></div><div class="el-p"><p dir="auto">You prepare the list of artificer spells that are available for you to cast, choosing from the&nbsp;<a data-tooltip-position="top" aria-label="http://dnd5e.wikidot.com/spells:artificer" rel="noopener nofollow" class="external-link is-unresolved" href="http://dnd5e.wikidot.com/spells:artificer" target="_self">artificer spell list</a>. When you do so, choose a number of artificer spells equal to your Intelligence modifier + half your artificer level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.</p></div><div class="el-p"><p dir="auto">For example, if you are a 5th-level artificer, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell&nbsp;<a data-tooltip-position="top" aria-label="https://dnd5e.wikidot.com/spell:cure-wounds" rel="noopener nofollow" class="external-link is-unresolved" href="https://dnd5e.wikidot.com/spell:cure-wounds" target="_self">Cure Wounds</a>, you can cast it using a lst-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</p></div><div class="el-p"><p dir="auto">You can change your list of prepared spells when you finish a long rest. Preparing a new list of artificer spells requires time spent tinkering with your spellcasting focuses: at least 1 minute per spell level for each spell on your list.</p></div><div class="el-h5"><h5 data-heading="Spellcasting Ability" dir="auto" class="heading" id="Spellcasting_Ability_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Spellcasting Ability</h5></div><div class="el-p"><p dir="auto">Intelligence is your spellcasting ability for your artificer spells; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intelligence whenever an artificer spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one.</p></div><div class="el-p"><p dir="auto"><strong>Spell save DC</strong>&nbsp;= 8 + your proficiency bonus + your Intelligence modifier<br>
+<strong>Spell attack modifier</strong>&nbsp;= your proficiency bonus + your Intelligence modifier</p></div><div class="el-h5"><h5 data-heading="Ritual Casting" dir="auto" class="heading" id="Ritual_Casting_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Ritual Casting</h5></div><div class="el-p"><p dir="auto">You can cast an artificer spell as a ritual if that spell has the ritual tag and you have the spell prepared.</p></div><div class="el-h3"><h3 data-heading="Infuse Item" dir="auto" class="heading" id="Infuse_Item_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Infuse Item</h3></div><div class="el-p"><p dir="auto"><em>2nd-level Artificer feature</em><br>
+At 2nd level, you've gained the ability to imbue mundane items with certain magical infusions, turning those objects into magic items.</p></div><div class="el-h5"><h5 data-heading="Infusions Known" dir="auto" class="heading" id="Infusions_Known_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Infusions Known</h5></div><div class="el-p"><p dir="auto">When you gain this feature, pick four&nbsp;<a data-tooltip-position="top" aria-label="http://dnd5e.wikidot.com/artificer:infusions" rel="noopener nofollow" class="external-link is-unresolved" href="http://dnd5e.wikidot.com/artificer:infusions" target="_self">artificer infusions</a>&nbsp;to learn. You learn additional infusions of your choice when you reach certain levels in this class, as shown in the Infusions Known column of the Artificer table.</p></div><div class="el-p"><p dir="auto">Whenever you gain a level in this class, you can replace one of the artificer infusions you learned with a new one.</p></div><div class="el-h5"><h5 data-heading="Infusing an Item" dir="auto" class="heading" id="Infusing_an_Item_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Infusing an Item</h5></div><div class="el-p"><p dir="auto">Whenever you finish a long rest, you can touch a nonmagical object and imbue it with one of your artificer infusions, turning it into a magic item. An infusion works on only certain kinds of objects, as specified in the infusion's description. If the item requires attunement, you can attune yourself to it the instant you infuse the item. If you decide to attune to the item later, you must do so using the normal process for attunement (see the attunement rules in the&nbsp;<em>Dungeon Master's Guide</em>).</p></div><div class="el-p"><p dir="auto">Your infusion remains in an item indefinitely, but when you die, the infusion vanishes after a number of days equal to your Intelligence modifier (minimum of 1 day). The infusion also vanishes if you replace your knowledge of the infusion.</p></div><div class="el-p"><p dir="auto">You can infuse more than one nonmagical object at the end of a long rest; the maximum number of objects appears in the Infused Items column of the Artificer table. You must touch each of the objects, and each of your infusions can be in only one object at a time. Moreover, no object can bear more than one of your infusions at a time. If you try to exceed your maximum number of infusions, the oldest infusion ends, and then the new infusion applies.</p></div><div class="el-p"><p dir="auto">If an infusion ends on an item that contains other things, like a bag of holding, its contents harmlessly appear in and around its space.</p></div><div class="el-h3"><h3 data-heading="Artificer Specialist" dir="auto" class="heading" id="Artificer_Specialist_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Artificer Specialist</h3></div><div class="el-p"><p dir="auto"><em>3rd-level Artificer feature</em><br>
+At 3rd level, you choose the type of specialist you are. Your choice grants you features at 5th level and again at 9th and 15th level.</p></div><div class="el-h3"><h3 data-heading="The Right Tool for the Job" dir="auto" class="heading" id="The_Right_Tool_for_the_Job_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>The Right Tool for the Job</h3></div><div class="el-p"><p dir="auto"><em>3rd-level Artificer feature</em><br>
+At 3rd level, you've learned how to produce exactly the tool you need: with thieves' tools or artisan's tools in hand, you can magically create one set of artisan's tools in an unoccupied space within 5 feet of you. This creation requires 1 hour of uninterrupted work, which can coincide with a short or long rest. Though the product of magic, the tools are nonmagical, and they vanish when you use this feature again.</p></div><div class="el-h3"><h3 data-heading="Ability Score Improvement" dir="auto" class="heading" id="Ability_Score_Improvement_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Ability Score Improvement</h3></div><div class="el-p"><p dir="auto"><em>4th-level Artificer feature</em><br>
+When you reach 4th level, 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p></div><div class="el-h3"><h3 data-heading="Tool Expertise" dir="auto" class="heading" id="Tool_Expertise_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Tool Expertise</h3></div><div class="el-p"><p dir="auto"><em>6th-level Artificer feature</em><br>
+At 6th level, your proficiency bonus is now doubled for any ability check you make that uses your proficiency with a tool.</p></div><div class="el-h3"><h3 data-heading="Flash of Genius" dir="auto" class="heading" id="Flash_of_Genius_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Flash of Genius</h3></div><div class="el-p"><p dir="auto"><em>7th-level Artificer feature</em><br>
+At 7th level, you've gained the ability to come up with solutions under pressure. When you or another creature you can see within 30 feet of you makes an ability check or a saving throw, you can use your reaction to add your Intelligence modifier to the roll.</p></div><div class="el-p"><p dir="auto">You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a long rest.</p></div><div class="el-h3"><h3 data-heading="Magic Item Adept" dir="auto" class="heading" id="Magic_Item_Adept_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Magic Item Adept</h3></div><div class="el-p"><p dir="auto"><em>10th-level Artificer feature</em><br>
+When you reach 10th level, you achieve a profound understanding of how to use and make magic items:</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>
+<p>You can attune to up to four magic items at once.</p>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>
+<p>If you craft a magic item with a rarity of common or uncommon, it takes you a quarter of the normal time, and it costs you half as much of the usual gold.</p>
+</li>
+</ul></div><div class="el-h3"><h3 data-heading="Spell-Storing Item" dir="auto" class="heading" id="Spell-Storing_Item_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Spell-Storing Item</h3></div><div class="el-p"><p dir="auto"><em>11th-level Artificer feature</em><br>
+At 11th level, you can now store a spell in an object. Whenever you finish a long rest, you can touch one simple or martial weapon or one item that you can use as a spellcasting focus, and you store a spell in it, choosing a 1st- or 2nd-level spell from the&nbsp;<a data-tooltip-position="top" aria-label="http://dnd5e.wikidot.com/spells:artificer" rel="noopener nofollow" class="external-link is-unresolved" href="http://dnd5e.wikidot.com/spells:artificer" target="_self">artificer spell list</a>&nbsp;that requires 1 action to cast (you needn't have it prepared).</p></div><div class="el-p"><p dir="auto">While holding the object, a creature can take an action to produce the spell's effect from it, using your spellcasting ability modifier. If the spell requires concentration, the creature must concentrate. The spell stays in the object until it's been used a number of times equal to twice your Intelligence modifier (minimum of twice) or until you use this feature again to store a spell in an object.</p></div><div class="el-h3"><h3 data-heading="Magic Item Savant" dir="auto" class="heading" id="Magic_Item_Savant_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Magic Item Savant</h3></div><div class="el-p"><p dir="auto"><em>14th-level Artificer feature</em><br>
+At 14th level, your skill with magic items deepens more:</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>You can attune to up to five magic items at once.</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>You ignore all class, race, spell and level requirements on attuning to or using a magic item.</li>
+</ul></div><div class="el-h3"><h3 data-heading="Magic Item Master" dir="auto" class="heading" id="Magic_Item_Master_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Magic Item Master</h3></div><div class="el-p"><p dir="auto"><em>18th-level Artificer feature</em><br>
+Starting at 18th level, you can attune up to six magic items at once.</p></div><div class="el-h3"><h3 data-heading="Soul of Artifice" dir="auto" class="heading" id="Soul_of_Artifice_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Soul of Artifice</h3></div><div class="el-p"><p dir="auto"><em>20th-level Artificer feature</em><br>
+At 20th level, you develop a mystical connection to your magic items, which you can draw on for protection:</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>
+<p>You gain a +1 bonus to all saving throws per magic item you are currently attuned to.</p>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>
+<p>If you're reduced to 0 hit points but not killed out-right, you can use your reaction to end one of your artificer infusions, causing you to drop to 1 hit point instead of 0.</p>
+</li>
+</ul></div><div class="el-h1"><h1 data-heading="Subclasses" dir="auto" class="heading" id="Subclasses_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Subclasses</h1></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Specialty</th>
+<th dir="ltr">Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><a data-tooltip-position="top" aria-label="http://dnd5e.wikidot.com/artificer:alchemist" rel="noopener nofollow" class="external-link is-unresolved" href="http://dnd5e.wikidot.com/artificer:alchemist" target="_self">Alchemist</a></td>
+<td dir="ltr">Tasha's Cauldron of Everything  <br>Eberron: Rising from the Last War</td>
+</tr>
+<tr>
+<td dir="ltr"><a data-tooltip-position="top" aria-label="http://dnd5e.wikidot.com/artificer:armorer" rel="noopener nofollow" class="external-link is-unresolved" href="http://dnd5e.wikidot.com/artificer:armorer" target="_self">Armorer</a></td>
+<td dir="ltr">Tasha's Cauldron of Everything</td>
+</tr>
+<tr>
+<td dir="ltr"><a data-tooltip-position="top" aria-label="http://dnd5e.wikidot.com/artificer:artillerist" rel="noopener nofollow" class="external-link is-unresolved" href="http://dnd5e.wikidot.com/artificer:artillerist" target="_self">Artillerist</a></td>
+<td dir="ltr">Tasha's Cauldron of Everything  <br>Eberron: Rising from the Last War</td>
+</tr>
+<tr>
+<td dir="ltr"><a data-tooltip-position="top" aria-label="http://dnd5e.wikidot.com/artificer:battle-smith" rel="noopener nofollow" class="external-link is-unresolved" href="http://dnd5e.wikidot.com/artificer:battle-smith" target="_self">Battle Smith</a></td>
+<td dir="ltr">Tasha's Cauldron of Everything  <br>Eberron: Rising from the Last War</td>
+</tr>
+</tbody>
+</table></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">The Artificer</th>
+<th dir="auto"></th>
+<th dir="auto"></th>
+<th dir="auto"></th>
+<th dir="ltr">Spell Slots per Spell Level</th>
+<th dir="auto"></th>
+<th dir="auto"></th>
+<th dir="auto"></th>
+<th dir="auto"></th>
+<th dir="auto"></th>
+<th dir="auto"></th>
+<th dir="auto"></th>
+</tr>
+</thead>
+</table></div><div class="footer"><div class="data-bar"></div></div></div></div></div><div id="right-content" class="leaf" style="--sidebar-width: var(--sidebar-width-right);"><div id="right-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme-toggle-input" id=""><input class="theme-toggle-input" type="checkbox" id="theme-toggle-input"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="right-sidebar-content" class="leaf-content"><div class="graph-view-wrapper"><div class="feature-header"><div class="feature-title">Interactive Graph</div></div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<div class="graph-icon graph-global" role="button" aria-label="Global Graph" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork"><circle cx="12" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><circle cx="18" cy="6" r="3"></circle><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"></path><path d="M12 12v3"></path></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div id="outline" class=" tree-container"><div class="feature-header"><div class="feature-title">Table Of Contents</div><button class="clickable-icon nav-action-button tree-collapse-all" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-item" data-depth="1"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Artificer_0" data-path="#Artificer_0"><div class="tree-item-inner heading-link" heading-name="Artificer">Artificer</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="1"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Artificer_Info_0" data-path="#Artificer_Info_0"><div class="tree-item-inner heading-link" heading-name="Artificer Info">Artificer Info</div></a><div class="tree-item-children"></div></div><div class="tree-item mod-collapsible" data-depth="1"><a class="tree-item-self is-clickable mod-collapsible" href="94_character_creation/classes-and-subclasses/artificer.html#Artificer_1" data-path="#Artificer_1"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Artificer">Artificer</div></a><div class="tree-item-children"><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-item-self is-clickable mod-collapsible" href="94_character_creation/classes-and-subclasses/artificer.html#Features_0" data-path="#Features_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Features">Features</div></a><div class="tree-item-children"><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Hit_Points_0" data-path="#Hit_Points_0"><div class="tree-item-inner heading-link" heading-name="Hit Points">Hit Points</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Proficiencies_0" data-path="#Proficiencies_0"><div class="tree-item-inner heading-link" heading-name="Proficiencies">Proficiencies</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Equipment_0" data-path="#Equipment_0"><div class="tree-item-inner heading-link" heading-name="Equipment">Equipment</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Optional_Rule_Firearm_Proficiency_0" data-path="#Optional_Rule_Firearm_Proficiency_0"><div class="tree-item-inner heading-link" heading-name="Optional Rule: Firearm Proficiency">Optional Rule: Firearm Proficiency</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Magical_Tinkering_0" data-path="#Magical_Tinkering_0"><div class="tree-item-inner heading-link" heading-name="Magical Tinkering">Magical Tinkering</div></a><div class="tree-item-children"></div></div><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-item-self is-clickable mod-collapsible" href="94_character_creation/classes-and-subclasses/artificer.html#Spellcasting_0" data-path="#Spellcasting_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Spellcasting">Spellcasting</div></a><div class="tree-item-children"><div class="tree-item" data-depth="4"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Tools_Required_0" data-path="#Tools_Required_0"><div class="tree-item-inner heading-link" heading-name="Tools Required">Tools Required</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Cantrips_(0-Level_Spells)_0" data-path="#Cantrips_(0-Level_Spells)_0"><div class="tree-item-inner heading-link" heading-name="Cantrips (0-Level Spells)">Cantrips (0-Level Spells)</div></a><div class="tree-item-children"></div></div><div class="tree-item mod-collapsible" data-depth="4"><a class="tree-item-self is-clickable mod-collapsible" href="94_character_creation/classes-and-subclasses/artificer.html#Preparing_and_Casting_Spells_0" data-path="#Preparing_and_Casting_Spells_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Preparing and Casting Spells">Preparing and Casting Spells</div></a><div class="tree-item-children"><div class="tree-item" data-depth="5"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Spellcasting_Ability_0" data-path="#Spellcasting_Ability_0"><div class="tree-item-inner heading-link" heading-name="Spellcasting Ability">Spellcasting Ability</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="5"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Ritual_Casting_0" data-path="#Ritual_Casting_0"><div class="tree-item-inner heading-link" heading-name="Ritual Casting">Ritual Casting</div></a><div class="tree-item-children"></div></div></div></div></div></div><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-item-self is-clickable mod-collapsible" href="94_character_creation/classes-and-subclasses/artificer.html#Infuse_Item_0" data-path="#Infuse_Item_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Infuse Item">Infuse Item</div></a><div class="tree-item-children"><div class="tree-item" data-depth="5"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Infusions_Known_0" data-path="#Infusions_Known_0"><div class="tree-item-inner heading-link" heading-name="Infusions Known">Infusions Known</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="5"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Infusing_an_Item_0" data-path="#Infusing_an_Item_0"><div class="tree-item-inner heading-link" heading-name="Infusing an Item">Infusing an Item</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Artificer_Specialist_0" data-path="#Artificer_Specialist_0"><div class="tree-item-inner heading-link" heading-name="Artificer Specialist">Artificer Specialist</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#The_Right_Tool_for_the_Job_0" data-path="#The_Right_Tool_for_the_Job_0"><div class="tree-item-inner heading-link" heading-name="The Right Tool for the Job">The Right Tool for the Job</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Ability_Score_Improvement_0" data-path="#Ability_Score_Improvement_0"><div class="tree-item-inner heading-link" heading-name="Ability Score Improvement">Ability Score Improvement</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Tool_Expertise_0" data-path="#Tool_Expertise_0"><div class="tree-item-inner heading-link" heading-name="Tool Expertise">Tool Expertise</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Flash_of_Genius_0" data-path="#Flash_of_Genius_0"><div class="tree-item-inner heading-link" heading-name="Flash of Genius">Flash of Genius</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Magic_Item_Adept_0" data-path="#Magic_Item_Adept_0"><div class="tree-item-inner heading-link" heading-name="Magic Item Adept">Magic Item Adept</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Spell-Storing_Item_0" data-path="#Spell-Storing_Item_0"><div class="tree-item-inner heading-link" heading-name="Spell-Storing Item">Spell-Storing Item</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Magic_Item_Savant_0" data-path="#Magic_Item_Savant_0"><div class="tree-item-inner heading-link" heading-name="Magic Item Savant">Magic Item Savant</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Magic_Item_Master_0" data-path="#Magic_Item_Master_0"><div class="tree-item-inner heading-link" heading-name="Magic Item Master">Magic Item Master</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Soul_of_Artifice_0" data-path="#Soul_of_Artifice_0"><div class="tree-item-inner heading-link" heading-name="Soul of Artifice">Soul of Artifice</div></a><div class="tree-item-children"></div></div></div></div></div></div><div class="tree-item" data-depth="1"><a class="tree-item-self is-clickable" href="94_character_creation/classes-and-subclasses/artificer.html#Subclasses_0" data-path="#Subclasses_0"><div class="tree-item-inner heading-link" heading-name="Subclasses">Subclasses</div></a><div class="tree-item-children"></div></div></div></div></div><script defer="">let rs = document.querySelector("#right-sidebar"); rs.classList.toggle("is-collapsed", window.innerWidth < 768); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></div></body></html>

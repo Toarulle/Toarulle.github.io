@@ -1,0 +1,315 @@
+<!DOCTYPE html> <html lang="en"><head>
+<title>Cooking</title>
+<base href="../..">
+<meta name="pathname" content="94_character_creation/mechanics/cooking.html">
+<meta name="description" content="Thalbrine - Cooking">
+<meta property="og:title" content="Cooking">
+<meta property="og:description" content="Thalbrine - Cooking">
+<meta property="og:type" content="website">
+<meta property="og:url" content="94_character_creation/mechanics/cooking.html">
+<meta property="og:image" content="undefined">
+<meta property="og:site_name" content="Thalbrine"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0"><meta charset="UTF-8"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="site-lib/rss.xml"><script async="" id="webpage-script" src="site-lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-wasm-script" src="site-lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="site-lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="site-lib/media/favicon.png"><link rel="stylesheet" href="site-lib/styles/obsidian.css"><link rel="preload" href="site-lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/other-plugins.css"></noscript><link rel="preload" href="site-lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="site-lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/supported-plugins.css"></noscript><link rel="preload" href="site-lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/main-styles.css"></noscript><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-vertical-spacing:1.3em;--sidebar-margin:12px}:root{background-color:#202124}.sidebar{height:100%;font-size:14px;z-index:10;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));position:relative;overflow:hidden;overflow:clip;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}#left-sidebar{left:0}#right-sidebar{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}.sidebar.floating{position:absolute}.sidebar .leaf-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .leaf-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}#left-sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}#right-sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar #left-sidebar-content,.sidebar #right-sidebar-content{contain:none!important;container-type:normal!important;animation:none!important}.sidebar:has(.leaf-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}#left-sidebar .sidebar-topbar{left:0;flex-direction:row}#right-sidebar .sidebar-topbar{right:0;flex-direction:row-reverse}#left-sidebar .topbar-content{margin-right:calc(2.3em + var(--sidebar-margin));flex-direction:row}#right-sidebar .topbar-content{margin-left:calc(2.3em + var(--sidebar-margin));flex-direction:row-reverse}.topbar-content{overflow:hidden visible;overflow:clip visible;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:2px!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}#left-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}#right-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.feature-title{margin-left:4px;text-transform:uppercase;letter-spacing:.06em;margin-top:.75em;margin-bottom:.75em}.feature-header{display:flex;align-items:center;padding-top:0;font-size:1em;padding-left:0}body.floating-sidebars .sidebar{position:absolute}body{transition:background-color var(--color-fade-speed) ease-in-out}#layout{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}#center-content{flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0!important;transition:opacity .2s ease-in-out;pointer-events:none}#center-content>.obsidian-document{padding-left:2em;padding-right:1em;margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}body #center-content>.obsidian-document>.markdown-preview-sizer{padding-bottom:80vh;width:100%;max-width:var(--line-width);flex-basis:var(--line-width);transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document>div{width:100%!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document:not([data-type=markdown]).embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}#center-content>.obsidian-document:not([data-type=markdown]).embed>*{max-width:100%;max-height:100%;object-fit:contain}:not(h1,h2,h3,h4,h5,h6):has(> :is(.math:not(.math-inline),table)){overflow-x:auto!important}#center-content>.obsidian-document:not([data-type=markdown]){overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.obsidian-document[data-type=attachment]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;width:100%}.obsidian-document[data-type=attachment]>*{outline:0;border:none;box-shadow:none}.obsidian-document[data-type=attachment] :is(img){max-width:90%;max-height:90%;object-fit:contain}.obsidian-document[data-type=attachment]>:is(audio){width:100%;max-width:min(90%,var(--line-width))}.obsidian-document[data-type=attachment]>:is(embed,iframe,video){width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}.canvas-wrapper>:is(.header,.footer){z-index:100;position:absolute;display:flex;justify-content:center;flex-direction:column;width:100%;align-items:center}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){let e=document.querySelectorAll("link[itemprop='include']");for(const t of e){let e=t.getAttribute("href");try{let o="";if(e.startsWith("https:")||e.startsWith("http:")||"file:"!=window.location.protocol){const l=await fetch(e);if(!l.ok){console.log("Could not include file: "+e),t?.remove();continue}o=await l.text()}else{const t=document.getElementById(btoa(encodeURI(e)));if(t){const e=JSON.parse(decodeURI(atob(t.getAttribute("value")??"")));o=e?.data??""}}let l=document.createRange().createContextualFragment(o),n=Array.from(l.children);for(let e of n)e?.classList?.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e?.classList?.remove("hide")}),10);t.before(l),t.remove(),console.log("Included text: "+o),console.log("Included file: "+e)}catch(o){t?.remove(),console.log("Could not include file: "+e,o);continue}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script")));!function e(l){let n=o[l],c=l+1;n?(n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(c),l<o.length&&n.addEventListener("load",(()=>e(c)))):l<o.length?e(c):t()}(0)}</script></head><body class="publish css-settings-manager show-inline-title show-ribbon is-focused"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="parsed-feature-container" style="display: contents;"><link itemprop="include" href="site-lib/html/custom-head-content-content.html"></div><div id="layout"><div id="left-content" class="leaf" style="--sidebar-width: var(--sidebar-width-left);"><div id="left-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><div id="search-container"><div id="search-wrapper"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div aria-label="Clear search" id="search-clear-button"></div></div></div></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="left-sidebar-content" class="leaf-content"><link itemprop="include" href="site-lib/html/file-tree-content.html"></div></div><script defer="">let ls = document.querySelector("#left-sidebar"); ls.classList.toggle("is-collapsed", window.innerWidth < 768); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div></div><div id="center-content" class="leaf"><div class="obsidian-document markdown-preview-view markdown-rendered node-insert-event is-readable-line-width allow-fold-headings allow-fold-lists show-indentation-guide show-properties" data-type="markdown"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><div class="header"><h1 class="page-title heading inline-title" id="Cooking_0">Cooking</h1><div class="data-bar"></div></div><div class="markdown-preview-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;"></div><div class="el-p"><p dir="auto">Cooking is a subcategory of crafting that allows players to use their downtime to prepare for<br>
+the conflict ahead in a whole new way. This section explores cooking magical food. It first<br>
+describes the rules for cooking food, then details the 22 staple recipes and 10 boss-monster-specific recipes, before finishing by diving into the myriad different effects of edible monster components.</p></div><div class="el-h1"><h1 data-heading="Magical Cuisine" dir="auto" class="heading" id="Magical_Cuisine_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Magical Cuisine</h1></div><div class="el-p"><p dir="auto">Like crafting, cooking uses harvested monster components to impart magical effects on food, known as magical meals. When consumed and digested, magical meals have long-lasting magical effects. These effects vary based on two factors: the type of component (for example, eye vs blood), and the creature type that the component came from (an aberration’s eye has different properties to a dragon’s eye). Different recipes call for different types of ingredients; a black pudding requires just blood, while offal stew needs a liver, heart, and brain. The more ingredients a magical meal calls for, the more effects it imparts simultaneously, and the harder it is to cook.</p></div><div class="el-h1"><h1 data-heading="Apply Heat, Don’t Burn" dir="auto" class="heading" id="Apply_Heat,_Don’t_Burn_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Apply Heat, Don’t Burn</h1></div><div class="el-p"><p dir="auto">A magical meal takes <strong>1 hour</strong> to cook and <strong>10 minutes</strong> to consume and digest. A magical meal must be fully consumed within <strong>1 hour</strong> of being cooked; if it is eaten after this hour, it imparts no magical effects. The effects last <strong>8 hours</strong>, or until dispelled by <em>dispel magic</em> or similar magic. A creature that eats a magical meal while already under the effects of another loses the effects of the previous meal at the end of the 10 minutes required to consume the new meal.</p></div><div class="el-p"><p dir="auto"><strong>Portions</strong>. A magical meal is typically large enough to feed one Large creature or up to four Medium or smaller creatures. If you have more than four players at your table, consider allowing a<br>
+single meal to have enough portions to feed the entire party; it can be more fun that way. Checks. Making a magical meal requires five things:</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>A recipe</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>Monster components</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>Essence</li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span>Cook’s utensils</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span>A source of heat<br>
+A creature with all these in their possession can spend 1 hour cooking. At the conclusion of the hour, the creature makes a Constitution (cook’s utensils) check against the DC of the recipe (see Ingredients and Recipe DC table). Depending on the difference between the DC and the result of the check, a magical meal can have quirks (see page 147).</li>
+</ul></div><div class="el-p"><p dir="auto"><strong>Helping Hands</strong>. Too many cooks spoil the broth, but a decent sous chef can pay dividends. For this reason, in place of using the Help action to grant advantage (a mechanic avoided in harvesting and crafting), one creature can help with the meal if it spends the entire hour helping the cook. If the creature has proficiency with cook’s utensils, it adds its proficiency bonus to the result of the Constitution (cook’s utensils) check. If it doesn’t have this proficiency, it adds half of its proficiency bonus to the result of the check instead.</p></div><div class="el-h2"><h2 data-heading="Dispelling Magical Meals" dir="auto" class="heading" id="Dispelling_Magical_Meals_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Dispelling Magical Meals</h2></div><div class="el-p"><p dir="auto">For the purposes of the dispel magic spell, all of a meal’s effects count as one single spell of a level based on the meal’s rarity: uncommon, 2nd-level; rare, 4th-level; very rare, 6th-level; legendary, 8th level.</p></div><div class="el-h1"><h1 data-heading="Recipes" dir="auto" class="heading" id="Recipes_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Recipes</h1></div><div class="el-p"><p dir="auto">This book presents two types of recipes: staple ones which can be cooked with monster components of any type, and ‘boss recipes’ which require components specific to the boss monsters in the hunts in this book. It is up to the GM whether player characters know these recipes, or must discover them. You could introduce recipes in ancient tomes, give them to a character whose grandfather was a famous chef, or make them purchasable from magical restaurants or culinary schools. Discuss this with your table before you introduce this ruleset.</p></div><div class="el-p"><p dir="auto"><strong>Potency and Essence</strong>. Essence is required for every magical meal; it is the factor that decides how powerful the meal’s effects will be. As with crafting, essence dictates the rarity of the magical meal, from uncommon to legendary. Rarity’s effect on magical meals is described in on pages 142 through 146.</p></div><div class="el-p"><p dir="auto"><strong>Edible Components</strong>. The components in the harvesting chapter marked with a superscript ‘E’ (E)<br>
+are edible—they all have magical effects if properly prepared. There are 10 types of edible components: blood, bone, brain, egg, eye, fat, flesh, heart, liver, and spice. Not all creature types supply every type of edible component. For a breakdown of each component type’s effects, see pages 142 to 146. Any unlisted nonmagical ingredients are supplied from a player character’s normal rations, and don’t require detailing.</p></div><div class="el-p"><p dir="auto"><strong>Difficulty</strong>. The more ingredients a recipe has, the more magical effects it imparts to those who consume it, and the higher the DC is to craft it. There are four tiers of difficulty:</p></div><div class="el-h2"><h2 data-heading="Ingredients and Recipe DC" dir="auto" class="heading" id="Ingredients_and_Recipe_DC_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Ingredients and Recipe DC</h2></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Recipe Tier</th>
+<th dir="ltr">Number of Ingredients</th>
+<th dir="ltr">DC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Novice</td>
+<td dir="auto">1</td>
+<td dir="auto">12</td>
+</tr>
+<tr>
+<td dir="ltr">Journeyman</td>
+<td dir="auto">2</td>
+<td dir="auto">16</td>
+</tr>
+<tr>
+<td dir="ltr">Expert</td>
+<td dir="auto">3</td>
+<td dir="auto">20</td>
+</tr>
+<tr>
+<td dir="ltr">Artisan</td>
+<td dir="auto">4</td>
+<td dir="auto">24</td>
+</tr>
+</tbody>
+</table></div><div class="el-h2"><h2 data-heading="Stable Recipes" dir="auto" class="heading" id="Stable_Recipes_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Stable Recipes</h2></div><div class="el-h3"><h3 data-heading="Novice Recipes" dir="auto" class="heading" id="Novice_Recipes_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Novice Recipes</h3></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Recipe</th>
+<th dir="ltr">Ingredient</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Keyebob</td>
+<td dir="ltr">Eye</td>
+</tr>
+<tr>
+<td dir="ltr">Tempura</td>
+<td dir="ltr">Fat</td>
+</tr>
+<tr>
+<td dir="ltr">Steak</td>
+<td dir="ltr">Flesh</td>
+</tr>
+<tr>
+<td dir="ltr">Blood curd</td>
+<td dir="ltr">Blood</td>
+</tr>
+<tr>
+<td dir="ltr">Bone broth</td>
+<td dir="ltr">Bone</td>
+</tr>
+<tr>
+<td dir="ltr">Egg dumpling</td>
+<td dir="ltr">Egg</td>
+</tr>
+<tr>
+<td dir="ltr">Hearty stew</td>
+<td dir="ltr">Heart</td>
+</tr>
+<tr>
+<td dir="ltr">Liverwurst</td>
+<td dir="ltr">Liver</td>
+</tr>
+</tbody>
+</table></div><div class="el-h3"><h3 data-heading="Journeyman Recipes" dir="auto" class="heading" id="Journeyman_Recipes_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Journeyman Recipes</h3></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Recipe</th>
+<th dir="ltr">Ingredients</th>
+<th dir="auto"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Meaty masala</td>
+<td dir="ltr">Flesh</td>
+<td dir="ltr">Spice</td>
+</tr>
+<tr>
+<td dir="ltr">Tofeye apple</td>
+<td dir="ltr">Bone</td>
+<td dir="ltr">Eye</td>
+</tr>
+<tr>
+<td dir="ltr">Dwarven scotch</td>
+<td dir="ltr">Egg</td>
+<td dir="ltr">Flesh</td>
+</tr>
+<tr>
+<td dir="ltr">Gobbois gras</td>
+<td dir="ltr">Fat</td>
+<td dir="ltr">Liver</td>
+</tr>
+<tr>
+<td dir="ltr">Devilled egg</td>
+<td dir="ltr">Egg</td>
+<td dir="ltr">Spice</td>
+</tr>
+<tr>
+<td dir="ltr">Black pudding</td>
+<td dir="ltr">Blood</td>
+<td dir="ltr">Fat</td>
+</tr>
+<tr>
+<td dir="ltr">Bloody gazpacho*</td>
+<td dir="ltr">Blood</td>
+<td dir="ltr">Spice</td>
+</tr>
+<tr>
+<td dir="ltr">Carrion delight</td>
+<td dir="ltr">Bone</td>
+<td dir="ltr">Fat</td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto"><em>*No heat source required.</em></p></div><div class="el-h3"><h3 data-heading="Expert Recipes" dir="auto" class="heading" id="Expert_Recipes_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Expert Recipes</h3></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Recipe</th>
+<th dir="ltr">Ingredients</th>
+<th dir="auto"></th>
+<th dir="auto"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Chronomancer’s slow cooked joint</td>
+<td dir="ltr">Bone</td>
+<td dir="ltr">Fat</td>
+<td dir="ltr">Flesh</td>
+</tr>
+<tr>
+<td dir="ltr">Offally good stew</td>
+<td dir="ltr">Brain</td>
+<td dir="ltr">Heart</td>
+<td dir="ltr">Liver</td>
+</tr>
+<tr>
+<td dir="ltr">Draconic delight</td>
+<td dir="ltr">Egg</td>
+<td dir="ltr">Flesh</td>
+<td dir="ltr">Spice</td>
+</tr>
+<tr>
+<td dir="ltr">Brain barbacoa</td>
+<td dir="ltr">Bone</td>
+<td dir="ltr">Brain</td>
+<td dir="ltr">Eye</td>
+</tr>
+</tbody>
+</table></div><div class="el-h3"><h3 data-heading="Artisan Recipes" dir="auto" class="heading" id="Artisan_Recipes_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Artisan Recipes</h3></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Recipe</th>
+<th dir="ltr">Ingredients</th>
+<th dir="auto"></th>
+<th dir="auto"></th>
+<th dir="auto"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Scarlet eye flan</td>
+<td dir="ltr">Blood</td>
+<td dir="ltr">Brain</td>
+<td dir="ltr">Eye</td>
+<td dir="ltr">Fat</td>
+</tr>
+<tr>
+<td dir="ltr">Beastial bourguignon</td>
+<td dir="ltr">Flesh</td>
+<td dir="ltr">Heart</td>
+<td dir="ltr">Liver</td>
+<td dir="ltr">Spice</td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto"><strong>Omitting Ingredients</strong>. A cook can replace a magical ingredient with a nonmagical one. If they choose to do so, they don’t get the associated magical effect of the nonmagical component, but can still attempt to craft the meal. For example, if a creature wants to make a <em>scarlet eye flan</em>, but has no magical <em>blood</em>, they can use the blood of any creature (provided it hasn’t spoiled) to complete the recipe. The DC for the recipe doesn’t change, and the magical meal only imparts the effects of the three magical components used: <em>brain</em>, <em>eye</em>, and <em>fat</em>.</p></div><div class="el-h2"><h2 data-heading="Boss Monster Recipes" dir="auto" class="heading" id="Boss_Monster_Recipes_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Boss Monster Recipes</h2></div><div class="el-p"><p dir="auto">Boss Monster recipes confer unique effects in addition to the effects of the components that make up the recipes. For example, aboleth ramen gives you the effect of aboleth flesh (bonus psychic damage) and the additional effect granted from consuming the boss dish (increased reach).</p></div><div class="el-h3"><h3 data-heading="Boss Monster Recipes" dir="auto" class="heading" id="Boss_Monster_Recipes_1"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Boss Monster Recipes</h3></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Recipe</th>
+<th dir="ltr">DC</th>
+<th dir="ltr">Boss Ingredients</th>
+<th dir="auto"></th>
+<th dir="ltr">Other Ingredients</th>
+<th dir="auto"></th>
+<th dir="auto"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Aboleth Ramen</td>
+<td dir="auto">12</td>
+<td dir="ltr">Flesh:</td>
+<td dir="ltr">Aberration (broodmother) tentacle</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">Jello Shot Mushroom Mélange</td>
+<td dir="auto">16 16</td>
+<td dir="ltr">Blood: Spice:</td>
+<td dir="ltr">Phial of ooze (polyhedrooze) mucus Pouch of plant (hyphan) spores</td>
+<td dir="ltr">Fat Fat</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">Rakoyaki</td>
+<td dir="auto">16</td>
+<td dir="ltr">Brain:</td>
+<td dir="ltr">Fiend (pygmy) brain</td>
+<td dir="ltr">Blood</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">Skrapyard Sosig</td>
+<td dir="auto">16</td>
+<td dir="ltr">Flesh:</td>
+<td dir="ltr">Construct (koboldzilla) tubing</td>
+<td dir="ltr">Egg</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">Tongue Twister Tart</td>
+<td dir="auto">16</td>
+<td dir="ltr">Flesh:</td>
+<td dir="ltr">Monstrosity (tavern mimic) tongue</td>
+<td dir="ltr">Brain</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">Magnetite Curry</td>
+<td dir="auto">20</td>
+<td dir="ltr">Flesh:</td>
+<td dir="ltr">Dragon (magnetite) flesh</td>
+<td dir="ltr">Liver</td>
+<td dir="ltr">Spice</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">Dumpleyengs</td>
+<td dir="auto">20</td>
+<td dir="ltr">Eye:</td>
+<td dir="ltr">Aberration (dreamholder) subeye</td>
+<td dir="ltr">Blood</td>
+<td dir="ltr">Heart</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">Suneater Steak and Eggs</td>
+<td dir="auto">20</td>
+<td dir="ltr">Flesh:</td>
+<td dir="ltr">Fey (suneater) flesh</td>
+<td dir="ltr">Blood</td>
+<td dir="ltr">Egg</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="ltr">Tar-rasque Marrow Broth</td>
+<td dir="auto">24</td>
+<td dir="ltr">Bone:</td>
+<td dir="ltr">Elemental (tar-rasque) marrow</td>
+<td dir="ltr">Heart</td>
+<td dir="ltr">Liver</td>
+<td dir="ltr">Spice</td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">For the duration of the magical meal’s effects, a creature that consumes and digests the meal gains<br>
+the following additional effect, with a value shown in the Boss Monster Effect Scaling table:</p></div><div class="el-p"><p dir="auto"><strong>Aboleth Ramen</strong>. When you make a melee weapon attack on your turn, your reach with it is greater than normal. This distance increases with rarity.<br>
+<strong>Jello Shot</strong>. Immediately after you take damage, you gain resistance to that damage type for the next minute. The number of resistances you can have from this effect simultaneously increases with rarity. If you are at your maximum number of resist ances, you can’t gain more.<br>
+<strong>Mushroom Mélange</strong>. You know the direction and distance of all corpses within a certain radius<br>
+of you. This radius increases with rarity. The effect can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.<br>
+<strong>Rakoyaki</strong>. You can’t be affected or detected by spells of a certain level or lower unless you wish to<br>
+be. The level of spells affected increases with rarity.<br>
+<strong>Skrapyard Sosig</strong>. Your power of self belief is so strong that, at the start of each of your turns, you<br>
+gain a number of temporary hit points equal to your Charisma modifier (minimum 1). The number of temporary hit points gained increases with rarity.<br>
+<strong>Tongue Twister Tart</strong>. You can use an action to transform into a piece of furniture equal to your<br>
+size or back to your normal form. While transformed, you have a walking speed of 5 feet, can’t take any action other than the Dash action or the action to change back into your normal form, and otherwise retain your game statistics. A creature can use its action to make an Intelligence (Investigation) check to inspect you, realising you are a transformed creature on a success. The DC for this check increases with rarity.</p></div><div class="el-p"><p dir="auto"><em>Not done yet. p.140</em></p></div><div class="footer"><div class="data-bar"></div></div></div></div></div><div id="right-content" class="leaf" style="--sidebar-width: var(--sidebar-width-right);"><div id="right-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme-toggle-input" id=""><input class="theme-toggle-input" type="checkbox" id="theme-toggle-input"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="right-sidebar-content" class="leaf-content"><div class="graph-view-wrapper"><div class="feature-header"><div class="feature-title">Interactive Graph</div></div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<div class="graph-icon graph-global" role="button" aria-label="Global Graph" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork"><circle cx="12" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><circle cx="18" cy="6" r="3"></circle><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"></path><path d="M12 12v3"></path></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div id="outline" class=" tree-container"><div class="feature-header"><div class="feature-title">Table Of Contents</div><button class="clickable-icon nav-action-button tree-collapse-all" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-item" data-depth="1"><a class="tree-item-self is-clickable" href="94_character_creation/mechanics/cooking.html#Cooking_0" data-path="#Cooking_0"><div class="tree-item-inner heading-link" heading-name="Cooking">Cooking</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="1"><a class="tree-item-self is-clickable" href="94_character_creation/mechanics/cooking.html#Magical_Cuisine_0" data-path="#Magical_Cuisine_0"><div class="tree-item-inner heading-link" heading-name="Magical Cuisine">Magical Cuisine</div></a><div class="tree-item-children"></div></div><div class="tree-item mod-collapsible" data-depth="1"><a class="tree-item-self is-clickable mod-collapsible" href="94_character_creation/mechanics/cooking.html#Apply_Heat,_Don’t_Burn_0" data-path="#Apply_Heat,_Don’t_Burn_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Apply Heat, Don’t Burn">Apply Heat, Don’t Burn</div></a><div class="tree-item-children"><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="94_character_creation/mechanics/cooking.html#Dispelling_Magical_Meals_0" data-path="#Dispelling_Magical_Meals_0"><div class="tree-item-inner heading-link" heading-name="Dispelling Magical Meals">Dispelling Magical Meals</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-collapsible" data-depth="1"><a class="tree-item-self is-clickable mod-collapsible" href="94_character_creation/mechanics/cooking.html#Recipes_0" data-path="#Recipes_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Recipes">Recipes</div></a><div class="tree-item-children"><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="94_character_creation/mechanics/cooking.html#Ingredients_and_Recipe_DC_0" data-path="#Ingredients_and_Recipe_DC_0"><div class="tree-item-inner heading-link" heading-name="Ingredients and Recipe DC">Ingredients and Recipe DC</div></a><div class="tree-item-children"></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-item-self is-clickable mod-collapsible" href="94_character_creation/mechanics/cooking.html#Stable_Recipes_0" data-path="#Stable_Recipes_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Stable Recipes">Stable Recipes</div></a><div class="tree-item-children"><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/mechanics/cooking.html#Novice_Recipes_0" data-path="#Novice_Recipes_0"><div class="tree-item-inner heading-link" heading-name="Novice Recipes">Novice Recipes</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/mechanics/cooking.html#Journeyman_Recipes_0" data-path="#Journeyman_Recipes_0"><div class="tree-item-inner heading-link" heading-name="Journeyman Recipes">Journeyman Recipes</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/mechanics/cooking.html#Expert_Recipes_0" data-path="#Expert_Recipes_0"><div class="tree-item-inner heading-link" heading-name="Expert Recipes">Expert Recipes</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/mechanics/cooking.html#Artisan_Recipes_0" data-path="#Artisan_Recipes_0"><div class="tree-item-inner heading-link" heading-name="Artisan Recipes">Artisan Recipes</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-item-self is-clickable mod-collapsible" href="94_character_creation/mechanics/cooking.html#Boss_Monster_Recipes_0" data-path="#Boss_Monster_Recipes_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Boss Monster Recipes">Boss Monster Recipes</div></a><div class="tree-item-children"><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="94_character_creation/mechanics/cooking.html#Boss_Monster_Recipes_1" data-path="#Boss_Monster_Recipes_1"><div class="tree-item-inner heading-link" heading-name="Boss Monster Recipes">Boss Monster Recipes</div></a><div class="tree-item-children"></div></div></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector("#right-sidebar"); rs.classList.toggle("is-collapsed", window.innerWidth < 768); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></div></body></html>
