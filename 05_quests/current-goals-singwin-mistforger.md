@@ -1,0 +1,78 @@
+# Goals
+- [x] Forts. på Orcuppdrag
+	- [x] Ta oss till portalen i Aarid Province, “Wardenwood”
+	- [x] Ta oss igenom portalen
+	- [x] Ta reda på vart andra änden av portalen befinner sig
+		- [x] Det var visst ish i shadowplane av något slag..
+	- [x] Ta oss hem. Om på [[Tyrfindal]], ta oss till Sydöstra halvön där mages finns
+	- [ ] Inte på Tyrfindal. Vi hamnade i Astral plane till slut.
+		- [ ] Leta material
+		- [ ] Ta oss hem
+			- [ ] Tirun dockmaster har ett uppdrag som vi sak göra, sen tar han oss hem. Vi ska hämta en Void Lotus 
+- [ ] Hitta ett sätt att få hem Holger
+- [ ] Fixa ett material med ursprung från the Astral Plane
+- [ ] Hälsa på Semil Wildmagic i Bastion Shore
+^currentquests
+
+# Old Goals
+- [x] Drottningens uppdrag - infiltrera orcherna utklädda till dem
+	- [x] Ta oss in till fiendens läger
+	- [x] Hitta ~the dude~
+	- [ ] ~~Oskadliggör ballistan~~
+	- [x] Stjäl/kopiera the war-plans
+- [x]  Crafta handen till Tony. 
+	- [x] Crafta handen
+	- [x] Kräver rätt simpla material
+		- [ ] Kanske Mithril?
+	- [x] Kräver en Ki-essence
+		- [ ] [[Sami]] kunde fixa en åt oss för 2 Soul Coins
+		- [ ] Kanske finns info om det i The Outlands
+		- [x] [[Mahmoud]] hade lovat att [[Session 42 - 2024-01-12#^gratiskiessence|fixa en åt oss tidigare, gratis]]
+- [x] Ta oss hem
+	- [x] Vi tar en båt till marken (öknen) från [[Maraja]] för Soul Coins
+	- [x] Vart sen..?
+		- [ ] Kan man ropa efter [[Magazeem]] kanske? Där han befann sig fanns en teleportation circle
+		- [x] Ropade på [[Irago]] som kom och hjälpte oss till [[Saxicus Saloon]]
+- [x] Bli av med nya [[Session 45 - 2024-02-10#^nycurse|cursen]]
+	- [x] [[Irago]] hjälpte oss bli av med den!
+- [x] Soul Coins / Abandoned
+	- [ ] Leta upp en förlorad shipment åt [[Omar’s Garden]] - 1 soul coin
+	- [ ] Döda nån random tjomme - 3 soul coins
+	- [ ] Hjälpa The Wizard med sitt simulakrum-problem - 4 soul coins
+		- [ ] Kanske [[Zarah]] är simulakrumet?
+		- [ ] Stalka [[Zarah]] - 3 soul coins
+- [x] Vi har en Curse på oss som sakta suger ut våra själar. [[Session 23 - 2023-06-10#Vi blir cursed|Session 23]] Vi behöver ta oss till [[Dendallen]]s gravplats för att kunna lösa detta 
+	- [ ] Hitta gravplatsen
+- [x] Vi behöver komma till de mörka magikerna för att försöka köpa loss cursen
+	- [x] Bli av med Cursen
+	- [x] Ta oss till De mörka magikerna. [[Maraja]]
+	- [x] Få tag i Soul Coins
+		- [x] Hjälpa [[Mahmoud]] med syra från en Purple Worm(?) - 4 soul coins
+			- [x] Fick 5 Soul Coins istället för 4
+		- [x] [[Zarah]]’s Labyrint - 5 soul coins
+			- [x] Få tag i lösenordet
+				- [x] Fixa damer till [[The Wizard]]
+			- [x] Gör inbrottet med lösenordet ”Scissors”
+				- [x] Kolla efter hatten och markera den med Instant Summons
+				- [ ] Leta efter tecken på att [[Zarah]] är ett simulakrum
+				- [x] Leta upp och ta med en infernalisk bok åt tieflingen
+		- [x] Blomma - 1 soul coin
+		- [x] [[Aksayakumara]]s granne, osynligt monster - 4 soul coins
+			- [x] Failed
+			- [x] Gå dit monstret befinner sig och oskadliggöra
+			- [x] [[Al-Riyada]] önskar vi släpper lös monstret istället - 4 coins + hand till Tony
+				- [x] Done
+	- [x] Kolla vad en Djinni skulle ta betalt för att fixa vår curse
+		- [x] [[Sami]], [[The Wizard]]’s kompis tar 5 Soul Coins per curse
+	- [x] Apan [[Marukei]] vill ha ett unikt vapen och då ska Tony få ritning på en hand jag kan crafta
+		- [x] Få tag i ett magiskt/unikt vapen
+- [x] På vägen har Tony lämnat sin Patron och blivit en krigare för [[Lamal]]. [[Session 28 - 2023-07-28|Session 28]] Han behöver gå till Lamal's tempel och rensa det. Vi tar det först.
+	- [x] Hitta Lamal's Tempel
+	- [x] Ta oss igenom templet och leta efter Haggan
+		- [x] Ta oss förbi [[Valetta Thornbury]]
+		- [x] Hitta Haggan
+		- [x] Oskadliggör Haggan (misslyckat)
+	- [x] Haggan har flytt till The Feywilds. Hitta och oskadliggör henne där
+		- [x] Följ till The Feywilds
+		- [x] Leta upp/Hitta haggan
+		- [x] Oskadliggör Haggan
