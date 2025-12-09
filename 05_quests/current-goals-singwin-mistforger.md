@@ -1,20 +1,21 @@
 # Goals
+- [ ] Hitta ett sätt att få hem Holger
+- [ ] Fixa ett material med ursprung från the Astral Plane
+- [ ] Hälsa på Semil Wildmagic i Bastion Shore
+- [ ] Komma på ett namn på byn där Cecil och Arvid finns
+^currentquests
+
+# Old Goals
 - [x] Forts. på Orcuppdrag
 	- [x] Ta oss till portalen i Aarid Province, “Wardenwood”
 	- [x] Ta oss igenom portalen
 	- [x] Ta reda på vart andra änden av portalen befinner sig
 		- [x] Det var visst ish i shadowplane av något slag..
 	- [x] Ta oss hem. Om på [[Tyrfindal]], ta oss till Sydöstra halvön där mages finns
-	- [ ] Inte på Tyrfindal. Vi hamnade i Astral plane till slut.
+	- [x] Inte på Tyrfindal. Vi hamnade i Astral plane till slut.
 		- [ ] Leta material
-		- [ ] Ta oss hem
-			- [ ] Tirun dockmaster har ett uppdrag som vi sak göra, sen tar han oss hem. Vi ska hämta en Void Lotus 
-- [ ] Hitta ett sätt att få hem Holger
-- [ ] Fixa ett material med ursprung från the Astral Plane
-- [ ] Hälsa på Semil Wildmagic i Bastion Shore
-^currentquests
-
-# Old Goals
+		- [x] Ta oss hem
+			- [x] Tirun dockmaster har ett uppdrag som vi sak göra, sen tar han oss hem. Vi ska hämta en Void Lotus  [[Session 56 - 2025-11-03]]
 - [x] Drottningens uppdrag - infiltrera orcherna utklädda till dem
 	- [x] Ta oss in till fiendens läger
 	- [x] Hitta ~the dude~
