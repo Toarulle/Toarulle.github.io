@@ -1,8 +1,8 @@
 # Goals
 - [ ] Hitta ett sätt att få hem Holger
-- [ ] Fixa ett material med ursprung från the Astral Plane
-- [ ] Hälsa på Semil Wildmagic i Bastion Shore
-- [ ] Komma på ett namn på byn där Cecil och Arvid finns
+- [ ] Fixa ett material med ursprung från the Astral Plane [[Session 48 - 2024-08-23 - Starting the Orc-infiltration arc#^01f869|Referens]]
+- [ ] Hälsa på [[Semil Wildmagic|Semil]] i Bastion Shore efter att vi pratat ifrån Astral Plane
+- [ ] Hjälpa Jimanuel bli av med Lycanthropy [[Session 66 - 2026-03-16|Referens]]
 ^currentquests
 
 # Old Goals
