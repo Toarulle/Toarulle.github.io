@@ -1,12 +1,15 @@
 # Goals
 - [ ] Hitta ett sätt att få hem Holger
 - [ ] Fixa ett material med ursprung från the Astral Plane [[Session 48 - 2024-08-23 - Starting the Orc-infiltration arc#^01f869|Referens]]
-- [ ] Hälsa på [[Semil Wildmagic|Semil]] i Bastion Shore efter att vi pratat ifrån Astral Plane
-- [ ] Gå till Darris bibliotek i Ceaver Keep för att kolla gällande Hilmias själ
-- [x] Hjälpa Jimanuel bli av med Lycanthropy [[Session 66 - 2026-03-16|Referens]]
+- [ ] Hälsa på [[Semil Wildmagic|Semil]] i Bastion Shore efter att vi pratat ifrån Astral Plane [[Session 51 - 2025-07-13|Referens]]
+- [ ] Ta reda på vad som hänt med ön Ranhold
+	- [ ] Fixa Hilmias själ-problem
+	- [ ] Gå till Darris bibliotek i Ceaver Keep för att kolla gällande Hilmias själ
+	- [ ] Vi har [[Session 76 - 2026-06-21|fått veta]] att cursen i Ranhold är samma som förstör platsen i Tom Timmers by. Båda platserna har samma typ av curse som går djupare ner i marken än vi kan ha vetat.
 ^currentquests
 
 # Old Goals
+- [x] Hjälpa Jimanuel bli av med Lycanthropy [[Session 66 - 2026-03-16|Referens]] : [[Session 68 - 2026-04-13|Färdigt]]
 - [x] Forts. på Orcuppdrag
 	- [x] Ta oss till portalen i Aarid Province, “Wardenwood”
 	- [x] Ta oss igenom portalen
